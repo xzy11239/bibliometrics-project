@@ -1,10 +1,9 @@
-version: "v0.3"
+version: "v0.1"
 date: "2026-03-25"
 database: "Web of Science Core Collection"
 time_window: "2015-01-01 to 2025-12-31"
 document_types: ["Article", "Review"]
 languages: ["English"]
-# WOS 检索式（可直接粘贴到 WOS 高级检索框）
 wos_query: |
   TS=("artificial intelligence assisted diagnosis" OR "AI-assisted diagnosis" OR "intelligent diagnosis" OR "machine learning diagnosis" OR "deep learning diagnosis")
   AND TS=("medicine" OR "clinical" OR "disease" OR "diagnostic model" OR "decision support")
