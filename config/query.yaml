@@ -1,1 +1,17 @@
+version: "v0.3"
+date: "2026-03-25"
+databases: ["WoS Core Collection", "CNKI"]
+time_window: "2015-01-01 to 2025-12-31"
+document_types: ["Article", "Review"]
 
+chinese_query: |
+  (TI=(人工智能辅助诊断 OR AI辅助诊断 OR 智能诊断 OR 机器学习诊断 OR 深度学习诊断) 
+  AND AB=(医学 OR 临床 OR 疾病 OR 诊断模型 OR 辅助决策)) 
+  AND (PY>=2015 AND PY<=2025) 
+  AND (DT=(Article OR Review))
+
+english_query: |
+  (TI=(artificial intelligence assisted diagnosis OR AI-assisted diagnosis OR intelligent diagnosis OR machine learning diagnosis OR deep learning diagnosis) 
+  AND AB=(medicine OR clinical OR disease OR diagnostic model OR decision support)) 
+  AND (PY>=2015 AND PY<=2025) 
+  AND (DT=(Article OR Review))
