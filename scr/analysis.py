@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from collections import Counter
 
-df = pd.read_csv("data/savedrecs.txt", sep="\t", encoding="utf-8")
+df = pd.read_csv("data/savedrecs (40).txt", sep="\t", encoding="utf-8")
 
 # 统计年份
 year_counts = df["PY"].value_counts().sort_index()
