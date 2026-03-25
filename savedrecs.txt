@@ -1,0 +1,1379 @@
+﻿FN Clarivate Analytics Web of Science
+VR 1.0
+PT J
+AU Hsieh, PJ
+AF Hsieh, Pi-Jung
+TI Determinants of physicians' intention to use AI-assisted diagnosis: An
+   integrated readiness perspective
+SO COMPUTERS IN HUMAN BEHAVIOR
+SN 0747-5632
+EI 1873-7692
+PD OCT
+PY 2023
+VL 147
+AR 107868
+DI 10.1016/j.chb.2023.107868
+EA JUL 2023
+UT WOS:001044222700001
+ER
+
+PT J
+AU You, LS
+   Luo, YC
+   Cheng, Q
+   Shen, L
+   Ge, JB
+AF You, Lingsen
+   Luo, Yuchen
+   Cheng, Qiang
+   Shen, Li
+   Ge, Junbo
+TI High-Suitcordance Intelligent Fibers for Panvascular Disease
+   Monitoring-Intervention
+SO ADVANCED FIBER MATERIALS
+RI ; CHENG, QIANG/AAL-8630-2020
+OI Ge, Junbo/0000-0002-9360-7332; 
+SN 2524-7921
+EI 2524-793X
+PD AUG
+PY 2025
+VL 7
+IS 4
+BP 1042
+EP 1072
+DI 10.1007/s42765-025-00542-9
+EA MAY 2025
+UT WOS:001483868500001
+ER
+
+PT J
+AU Chen, AT
+   Wang, CY
+   Zhang, XQ
+AF Chen, Antian
+   Wang, Chenyu
+   Zhang, Xinqing
+TI Reflection on the equitable attribution of responsibility for artificial
+   intelligence-assisted diagnosis and treatment decisions
+SO INTELLIGENT MEDICINE
+RI Zhang, Xinqing/GWV-0938-2022; Chen, An-Tian/GRN-8901-2022
+OI Chen, An-Tian/0000-0002-2829-7921
+SN 2667-1026
+PD MAY
+PY 2023
+VL 3
+IS 2
+BP 139
+EP 143
+DI 10.1016/j.imed.2022.04.002
+EA JUN 2023
+UT WOS:001104299700001
+ER
+
+PT J
+AU Zhang, L
+   Wong, CT
+   Li, YG
+   Huang, TY
+   Wang, JW
+   Lin, CH
+AF Zhang, Laney
+   Wong, Chinting
+   Li, Yungeng
+   Huang, Tianyi
+   Wang, Jiawen
+   Lin, Chenghe
+TI Artificial intelligence assisted diagnosis of early tc markers and its
+   application
+SO DISCOVER ONCOLOGY
+RI Huang, Tianyi/H-2999-2019
+EI 2730-6011
+PD MAY 18
+PY 2024
+VL 15
+IS 1
+AR 172
+DI 10.1007/s12672-024-01017-w
+UT WOS:001227031000001
+PM 38761260
+ER
+
+PT J
+AU Lechien, JR
+   Saxena, S
+   Vaira, LA
+   Hans, S
+   Maniaci, A
+AF Lechien, Jerome R.
+   Saxena, Sarah
+   Vaira, Luigi A.
+   Hans, Stephane
+   Maniaci, Antonino
+TI Artificial Intelligence-Assisted Diagnosis of an Unusual Cause of
+   Periodic Epistaxis: A Case Report
+SO ENT-EAR NOSE & THROAT JOURNAL
+RI Vaira, Luigi/AAS-7736-2020; MANIACI, ANTONINO/AAB-6004-2021
+OI MANIACI, ANTONINO/0000-0002-1251-0185
+SN 0145-5613
+EI 1942-7522
+PD 2025 JUN 3
+PY 2025
+DI 10.1177/01455613251335385
+EA JUN 2025
+UT WOS:001500744100001
+PM 40458068
+ER
+
+PT J
+AU Deng, ZH
+   Song, D
+   Liu, S
+AF Deng, Zhaohua
+   Song, Dan
+   Liu, Shan
+TI How does AI-assisted diagnosis decision support systems influence
+   doctors' coping styles and work outcomes? Bright and dark sides of AI in
+   the workplace
+SO DECISION SUPPORT SYSTEMS
+SN 0167-9236
+EI 1873-5797
+PD OCT
+PY 2025
+VL 197
+AR 114512
+DI 10.1016/j.dss.2025.114512
+EA JUL 2025
+UT WOS:001544268800001
+ER
+
+PT J
+AU Ogut, E
+AF Ogut, Eren
+TI Artificial Intelligence in Clinical Medicine: Challenges Across
+   Diagnostic Imaging, Clinical Decision Support, Surgery, Pathology, and
+   Drug Discovery
+SO CLINICS AND PRACTICE
+RI OGUT, Eren/C-2529-2016
+OI OGUT, Eren/0000-0003-2506-9883
+SN 2039-7275
+EI 2039-7283
+PD SEP 16
+PY 2025
+VL 15
+IS 9
+AR 169
+DI 10.3390/clinpract15090169
+UT WOS:001579572900001
+PM 41002784
+ER
+
+PT J
+AU Kim, E
+   Song, SJ
+AF Kim, Eunah
+   Song, Su Jeong
+TI AI-Augmented Fundus Disease Screening by Non-Ophthalmologist Physicians:
+   A Paired Before-After Study
+SO BIOENGINEERING-BASEL
+OI Kim, EunAh/0000-0003-4026-3502; song, su/0000-0003-2110-1874
+EI 2306-5354
+PD NOV 27
+PY 2025
+VL 12
+IS 12
+AR 1304
+DI 10.3390/bioengineering12121304
+UT WOS:001648358900001
+PM 41463601
+ER
+
+PT J
+AU Wang, XH
+   Zheng, TX
+   Liu, B
+   Pei, Z
+   Meng, KH
+   Ling, CQ
+AF Wang, Xionghui
+   Zheng, Tianxiao
+   Liu, Bo
+   Pei, Zhi
+   Meng, Kaihan
+   Ling, Changquan
+TI Performance Assessment of ChatGPT-4.0 and ChatGLM Series in Traditional
+   Chinese Medicine for Metabolic Associated Fatty Liver Disease:
+   Comparative Study
+SO JMIR FORMATIVE RESEARCH
+OI wang, xiong-hui/0009-0004-1522-2607
+EI 2561-326X
+PY 2025
+VL 9
+AR e66503
+DI 10.2196/66503
+UT WOS:001589669200021
+PM 40854301
+ER
+
+PT J
+AU Duan, YY
+   Jia, SF
+   Ye, S
+   Cheang, L
+   Tai, WH
+   Xiang, LZ
+   Ye, ZW
+AF Duan, Yu-yu
+   Jia, Si-feng
+   Ye, Song
+   Cheang, Lekhang
+   Tai, Wahou
+   Xiang, Li-zhi
+   Ye, Zhe-wei
+TI Artificial Intelligence for Spleen-Stomach Disorders in Traditional
+   Chinese Medicine: Integrating Knowledge Graphs with Intelligent
+   Diagnosis and Treatment
+SO CURRENT MEDICAL SCIENCE
+RI Ye, Zhewei/OMM-6832-2025; XIANG, LIZHI/OZE-5774-2025
+SN 2096-5230
+EI 2523-899X
+PD DEC
+PY 2025
+VL 45
+IS 6
+BP 1348
+EP 1357
+DI 10.1007/s11596-025-00128-x
+EA NOV 2025
+UT WOS:001610011000001
+PM 41201780
+ER
+
+PT J
+AU Ganesh, KSVAB
+   Mishra, VP
+   Jayanthiladevi, A
+   Verma, AK
+AF Ganesh, K. S. V. Angu Bala
+   Mishra, Ved Prakash
+   Jayanthiladevi, A.
+   Verma, Amit Kumar
+TI Building clinician trust in AI-assisted neurodiagnostics: A case-based
+   evaluation
+SO INTERDISCIPLINARY NEUROSURGERY-ADVANCED TECHNIQUES AND CASE MANAGEMENT
+RI Verma, Dr. Amit/AAZ-1403-2021; Mishra, Ved Prakash/HNR-1507-2023; Saya,
+   Ganesh/AAT-5825-2020
+OI Mishra, Ved Prakash/0000-0003-1832-8736; 
+EI 2214-7519
+PD DEC
+PY 2025
+VL 42
+AR 102144
+DI 10.1016/j.inat.2025.102144
+EA NOV 2025
+UT WOS:001627476300002
+ER
+
+PT J
+AU Wang, XY
+   Wang, Y
+AF Wang, Xiyuan
+   Wang, Yong
+TI Analysis of trust factors for AI-assisted diagnosis in intelligent
+   Healthcare: Personalized management strategies in chronic disease
+   management
+SO EXPERT SYSTEMS WITH APPLICATIONS
+SN 0957-4174
+EI 1873-6793
+PD DEC 1
+PY 2024
+VL 255
+AR 124499
+DI 10.1016/j.eswa.2024.124499
+EA JUN 2024
+PN A
+UT WOS:001259967900001
+ER
+
+PT J
+AU Raj, A
+   Sajayan, K
+   Chandran, CS
+   Alex, AT
+AF Raj, Alan
+   Sajayan, Krishnameera
+   Chandran, C. Sarath
+   Alex, Angel Treasa
+TI Fabry disease management: Current status, therapeutic challenges, and
+   future horizons in drug delivery and artificial intelligence assisted
+   diagnosis
+SO JOURNAL OF DRUG DELIVERY SCIENCE AND TECHNOLOGY
+OI c, Sarath chanan/0000-0002-8615-9092; RAJ, ALAN/0000-0002-2743-6686;
+   Sajayan, Krishnameera/0009-0004-7755-4017
+SN 1773-2247
+EI 2588-8943
+PD OCT
+PY 2024
+VL 100
+AR 106032
+DI 10.1016/j.jddst.2024.106032
+EA AUG 2024
+UT WOS:001293053900001
+ER
+
+PT J
+AU Jiang, YZ
+   Deng, ZH
+   Chen, JY
+   Wu, HX
+   Choi, KS
+   Wang, ST
+AF Jiang, Yizhang
+   Deng, Zhaohong
+   Chen, Junyong
+   Wu, Hongxun
+   Choi, Kup-Sze
+   Wang, Shitong
+TI Intelligent Diagnostic Methods for Thyroid Nodules
+SO JOURNAL OF MEDICAL IMAGING AND HEALTH INFORMATICS
+RI ; Jiang, Yizhang/V-2171-2019; Wu, Hong/AAD-8875-2022; deng,
+   zhaohong/LEM-6402-2024
+OI Wu, Hong/0000-0003-2837-2458; Choi, Kup-Sze/0000-0003-0836-7088; 
+SN 2156-7018
+EI 2156-7026
+PD DEC
+PY 2017
+VL 7
+IS 8
+BP 1772
+EP 1779
+DI 10.1166/jmihi.2017.2261
+UT WOS:000418508300013
+ER
+
+PT J
+AU Chen, YS
+   Gong, ZN
+   Liang, S
+   Zhang, YC
+   Cheng, WH
+   Jia, XS
+   Ren, LY
+   Wang, X
+AF Chen, Yusheng
+   Gong, Zhenni
+   Liang, Su
+   Zhang, Yicheng
+   Cheng, Weihao
+   Jia, Xuesong
+   Ren, Luoyi
+   Wang, Xue
+TI Advances in the study and application of digital technology in the
+   clinical practice of atopic dermatitis
+SO DIGITAL HEALTH
+RI ; cheng, weihao/MUO-0523-2025
+OI liang, su/0009-0002-5828-6104; Gong, Zhenni/0009-0004-2232-8389
+SN 2055-2076
+PY 2025
+VL 11
+AR 20552076251377957
+DI 10.1177/20552076251377957
+UT WOS:001567982600001
+PM 40949673
+ER
+
+PT J
+AU Yang, N
+   Liu, J
+   Sun, D
+   Ding, JJ
+   Sun, LZ
+   Qi, XH
+   Yan, W
+AF Yang, Ni
+   Liu, Jing
+   Sun, Dan
+   Ding, Jiajun
+   Sun, Lingzhi
+   Qi, Xianghua
+   Yan, Wei
+TI Motor symptoms of Parkinson's disease: critical markers for early
+   AI-assisted diagnosis
+SO FRONTIERS IN AGING NEUROSCIENCE
+SN 1663-4365
+PD JUL 18
+PY 2025
+VL 17
+AR 1602426
+DI 10.3389/fnagi.2025.1602426
+UT WOS:001541233100001
+PM 40756325
+ER
+
+PT J
+AU Wu, YJ
+   Liu, KJ
+   Mao, XL
+   Wu, DJ
+   Zhu, F
+AF Wu, Yanjun
+   Liu, Kaijie
+   Mao, Xinli
+   Wu, Danjie
+   Zhu, Feng
+TI Evaluation of the Use of a Novel Intelligent Diagnosis and Cost Control
+   System on Pediatric Bronchopneumonia Outcomes: Retrospective Cohort
+   Study
+SO JMIR PEDIATRICS AND PARENTING
+RI ; Liu, Kaijie/F-3814-2018
+OI Wu, Danjie/0009-0009-3217-536X; Liu, Kaijie/0000-0001-9346-5162; Wu,
+   Yanjun/0009-0008-2621-9250; 
+SN 2561-6722
+PY 2025
+VL 8
+AR e74964
+DI 10.2196/74964
+UT WOS:001659095100006
+PM 41092402
+ER
+
+PT J
+AU Zhao, TT
+   Zeng, ZY
+   Li, T
+   Tao, WJ
+   Yu, X
+   Feng, T
+   Bu, R
+AF Zhao, Tingting
+   Zeng, Zhiyong
+   Li, Tong
+   Tao, Wenjing
+   Yu, Xing
+   Feng, Tao
+   Bu, Rui
+TI USC-ENet: a high-efficiency model for the diagnosis of liver tumors
+   combining B-mode ultrasound and clinical data
+SO HEALTH INFORMATION SCIENCE AND SYSTEMS
+RI Bu, Rui/KVA-6379-2024; Feng, Tao/IUO-4877-2023
+OI Feng, Tao/0000-0002-4443-157X
+SN 2047-2501
+PD MAR 19
+PY 2023
+VL 11
+IS 1
+AR 15
+DI 10.1007/s13755-023-00217-y
+UT WOS:000953307300001
+PM 36950106
+ER
+
+PT J
+AU Zhang, F
+   Zhang, X
+   Jian, J
+   Zeng, X
+   Zheng, C
+   Zhang, YX
+   Gao, JQ
+AF Zhang, Fang
+   Zhang, Xiang
+   Jian, Jing
+   Zeng, Xu
+   Zheng, Chao
+   Zhang, Yaxi
+   Gao, Jinquan
+TI Heart failure: mechanistic insights and precision therapeutic strategies
+SO FRONTIERS IN CARDIOVASCULAR MEDICINE
+SN 2297-055X
+PD DEC 5
+PY 2025
+VL 12
+AR 1696793
+DI 10.3389/fcvm.2025.1696793
+UT WOS:001642249000001
+PM 41425993
+ER
+
+PT J
+AU Li, MW
+   Xia, LY
+   Wu, QT
+   Wang, L
+   Zhu, JL
+   Zhang, MC
+AF Li, Meiwen
+   Xia, Liye
+   Wu, Qingtao
+   Wang, Lin
+   Zhu, Junlong
+   Zhang, Mingchuan
+TI MD-LDA: a supervised LDA topic model for identifying mechanism of
+   disease in TCM
+SO DATA TECHNOLOGIES AND APPLICATIONS
+RI ; Zhang, Mingchuan/I-6902-2018
+OI Wu, Qingtao/0000-0003-1572-5293; 
+SN 2514-9288
+EI 2514-9318
+PD JAN 14
+PY 2025
+VL 59
+IS 1
+BP 1
+EP 18
+DI 10.1108/DTA-12-2023-0868
+EA JUL 2024
+UT WOS:001272905100001
+ER
+
+PT J
+AU Wu, LX
+   Jiang, Y
+   Luo, TY
+   Hou, JX
+   Deng, Y
+   Han, LX
+   Jiang, TF
+   Bao, J
+AF Wu, Li-xue
+   Jiang, Yong
+   Luo, Tian-you
+   Hou, Jia-xin
+   Deng, Yang
+   Han, Lu-xin
+   Jiang, Ting-feng
+   Bao, Ji
+TI Interpretable AI-assisted diagnosis of papillary thyroid cancer
+   cytopathology using graph neural networks and knowledge graphs
+SO SCIENTIFIC REPORTS
+RI Jiang, Tingfeng/M-7956-2019; DENG, YANG/OGP-7905-2025
+SN 2045-2322
+PD SEP 1
+PY 2025
+VL 15
+IS 1
+AR 32165
+DI 10.1038/s41598-025-18235-z
+UT WOS:001561967700001
+PM 40890335
+ER
+
+PT J
+AU Reza-Soltani, S
+   Alam, LF
+   Debellotte, O
+   Monga, TS
+   Coyalkar, VR
+   Tarnate, VCA
+   Ozoalor, CU
+   Allam, SR
+   Afzal, M
+   Shah, GK
+   Rai, M
+AF Reza-Soltani, Setareh
+   Alam, Laraib Fakhare
+   Debellotte, Omofolarin
+   Monga, Tejbir S.
+   Coyalkar, Vaishali Raj
+   Tarnate, Victoria Clarice A.
+   Ozoalor, Chioma Ugochinyere
+   Allam, Sanjana Reddy
+   Afzal, Maham
+   Shah, Gunjan Kumari
+   Rai, Manju
+TI The Role of Artificial Intelligence and Machine Learning in
+   Cardiovascular Imaging and Diagnosis
+SO CUREUS JOURNAL OF MEDICAL SCIENCE
+OI afzal, maham/0009-0003-8541-6864
+EI 2168-8184
+PD SEP 2
+PY 2024
+VL 16
+IS 9
+AR e68472
+DI 10.7759/cureus.68472
+UT WOS:001309720700006
+PM 39360044
+ER
+
+PT J
+AU Li, YW
+   Zhang, TN
+   Yang, YS
+   Gao, YC
+AF Li, Yawen
+   Zhang, Tiannan
+   Yang, Yushan
+   Gao, Yuchen
+TI Artificial intelligence-aided decision support in paediatrics clinical
+   diagnosis: development and future prospects
+SO JOURNAL OF INTERNATIONAL MEDICAL RESEARCH
+RI Yang, Yushan/MVW-9441-2025; Gao, Yuchen/AAX-9525-2021; Li,
+   Yawen/HGF-2865-2022
+OI Gao, Yuchen/0000-0002-1409-2976; 
+SN 0300-0605
+EI 1473-2300
+PD SEP
+PY 2020
+VL 48
+IS 9
+AR 0300060520945141
+DI 10.1177/0300060520945141
+UT WOS:000570744700001
+PM 32924683
+ER
+
+PT J
+AU Chen, PY
+   Cheng, YC
+   Zhong, ZH
+   Zhang, FZ
+   Pai, NS
+   Li, CM
+   Lin, CH
+AF Chen, Pi-Yun
+   Cheng, Yu-Cheng
+   Zhong, Zi-Heng
+   Zhang, Feng-Zhou
+   Pai, Neng-Sheng
+   Li, Chien-Ming
+   Lin, Chia-Hung
+TI Information Security and Artificial Intelligence–Assisted Diagnosis in
+   an Internet of Medical Thing System (IoMTS)
+SO IEEE ACCESS
+RI Pai, NS/KVZ-1904-2024
+SN 2169-3536
+PY 2024
+VL 12
+BP 9757
+EP 9775
+DI 10.1109/ACCESS.2024.3351373
+UT WOS:001150379700001
+ER
+
+PT J
+AU Li, MM
+   Zhuang, LL
+   Hu, S
+   Sun, L
+   Liu, YX
+   Dou, ZW
+   Jiang, T
+AF Li, Miaomiao
+   Zhuang, Lilei
+   Hu, Sheng
+   Sun, Li
+   Liu, Yangxiang
+   Dou, Zhengwei
+   Jiang, Tao
+TI Intelligent diagnosis of lung nodule images based on machine learning in
+   the context of lung teaching
+SO MEDICINE
+SN 0025-7974
+EI 1536-5964
+PD MAR 8
+PY 2024
+VL 103
+IS 10
+AR e37266
+DI 10.1097/MD.0000000000037266
+UT WOS:001222731500044
+PM 38457590
+ER
+
+PT J
+AU Lei, YN
+   Duan, JJ
+   Qi, Q
+   Fang, J
+   Liu, Q
+   Zhou, S
+   Wu, YX
+AF Lei, Yuning
+   Duan, Jinjie
+   Qi, Qi
+   Fang, Jie
+   Liu, Qian
+   Zhou, Shuang
+   Wu, Yuxiang
+TI The Design and Application of Wearable Ultrasound Devices for Detection
+   and Imaging
+SO BIOSENSORS-BASEL
+RI Wu, Yuxiang/ABE-7091-2021; Zhou, Shuang/GWM-6426-2022; Duan,
+   Jinjie/MTE-8418-2025
+OI Wu, Yuxiang/0000-0002-9041-4471; Duan, Jinjie/0009-0007-1817-549X
+EI 2079-6374
+PD AUG 26
+PY 2025
+VL 15
+IS 9
+AR 561
+DI 10.3390/bios15090561
+UT WOS:001580378000001
+PM 41002301
+ER
+
+PT J
+AU Gu, F
+   Ma, SH
+   Wang, XD
+   Zhao, J
+   Yu, Y
+   Song, XJ
+AF Gu, Feng
+   Ma, Songhua
+   Wang, Xiude
+   Zhao, Jian
+   Yu, Ying
+   Song, Xinjian
+TI Evaluation of Feature Selection for Alzheimer's Disease Diagnosis
+SO FRONTIERS IN AGING NEUROSCIENCE
+RI Yu, Ying/OZF-7502-2025
+SN 1663-4365
+PD JUN 24
+PY 2022
+VL 14
+AR 924113
+DI 10.3389/fnagi.2022.924113
+UT WOS:000827407100001
+PM 35813964
+ER
+
+PT J
+AU Wang, JM
+   You, T
+   Yi, K
+   Gong, YQ
+   Xie, QL
+   Qu, F
+   Wang, BZ
+   He, ZM
+AF Wang, Jiaming
+   You, Tao
+   Yi, Kang
+   Gong, Yaqin
+   Xie, Qilian
+   Qu, Fei
+   Wang, Bangzhou
+   He, Zhaoming
+TI Intelligent Diagnosis of Heart Murmurs in Children with Congenital Heart
+   Disease
+SO JOURNAL OF HEALTHCARE ENGINEERING
+OI He, Zhaoming/0000-0003-2182-3359
+SN 2040-2295
+EI 2040-2309
+PD MAY 11
+PY 2020
+VL 2020
+AR 9640821
+DI 10.1155/2020/9640821
+UT WOS:000537215500001
+PM 32454963
+ER
+
+PT J
+AU Wang, WN
+   Luo, MG
+   Guo, PR
+   Wei, Y
+   Tan, Y
+   Shi, HX
+AF Wang, Weining
+   Luo, Meige
+   Guo, Peirong
+   Wei, Yan
+   Tan, Yan
+   Shi, Hongxia
+TI Artificial intelligence-assiste d diagnosis of hematologic diseases base
+   d on bone marrow smears using deep neural networks
+SO COMPUTER METHODS AND PROGRAMS IN BIOMEDICINE
+SN 0169-2607
+EI 1872-7565
+PD APR
+PY 2023
+VL 231
+AR 107343
+DI 10.1016/j.cmpb.2023.107343
+EA FEB 2023
+UT WOS:000990561200001
+PM 36821974
+ER
+
+PT J
+AU Pattnaik, S
+   Kumar, R
+   Goyal, M
+AF Pattnaik, Sandeep
+   Kumar, Rajneesh
+   Goyal, Manu
+TI A prospective study on clinical determinants enabling artificial
+   intelligence-assisted diagnosis of lumbar disc prolapse
+SO JOURNAL OF CLINICAL NEUROSCIENCE
+RI Pattnaik, Sandeep Abhijit/HHD-0703-2022
+SN 0967-5868
+EI 1532-2653
+PD OCT
+PY 2025
+VL 140
+AR 111467
+DI 10.1016/j.jocn.2025.111467
+EA JUL 2025
+UT WOS:001538594600001
+PM 40652579
+ER
+
+PT J
+AU Zhu, Y
+   Xu, TK
+   Peng, L
+   Cao, Y
+   Zhao, XT
+   Li, SY
+   Zhao, YM
+   Meng, FC
+   Ding, JM
+   Liang, S
+AF Zhu, Yuang
+   Xu, Tongkai
+   Peng, Li
+   Cao, Yin
+   Zhao, Xiaoting
+   Li, Suying
+   Zhao, Yiming
+   Meng, Fanchao
+   Ding, Jinmin
+   Liang, Sheng
+TI Faster-RCNN based intelligent detection and localization of dental
+   caries
+SO DISPLAYS
+RI Meng, fanchao/HJH-8933-2023
+SN 0141-9382
+EI 1872-7387
+PD SEP
+PY 2022
+VL 74
+AR 102201
+DI 10.1016/j.displa.2022.102201
+EA APR 2022
+UT WOS:000792663900001
+ER
+
+PT J
+AU Zhao, Z
+   Pi, Y
+   Jiang, LS
+   Xiang, YZ
+   Wei, JA
+   Yang, P
+   Zhang, WJ
+   Zhong, X
+   Zhou, K
+   Li, YH
+   Li, L
+   Yi, Z
+   Cai, HW
+AF Zhao, Zhen
+   Pi, Yong
+   Jiang, Lisha
+   Xiang, Yongzhao
+   Wei, Jianan
+   Yang, Pei
+   Zhang, Wenjie
+   Zhong, Xiao
+   Zhou, Ke
+   Li, Yuhao
+   Li, Lin
+   Yi, Zhang
+   Cai, Huawei
+TI Deep neural network based artificial intelligence assisted diagnosis of
+   bone scintigraphy for cancer bone metastasis
+SO SCIENTIFIC REPORTS
+RI Cai, Huawei/JDM-7178-2023; Wei, Jianan/IQT-6324-2023; ZHAO,
+   ZHAO/PGF-9846-2026
+OI Cai, Huawei/0000-0003-1341-8417; 
+SN 2045-2322
+PD OCT 12
+PY 2020
+VL 10
+IS 1
+AR 17046
+DI 10.1038/s41598-020-74135-4
+UT WOS:000582687900026
+PM 33046779
+ER
+
+PT J
+AU El-Khoury, R
+   Zaatari, G
+AF El-Khoury, Riyad
+   Zaatari, Ghazi
+TI The Rise of AI-Assisted Diagnosis: Will Pathologists Be Partners or
+   Bystanders?
+SO DIAGNOSTICS
+EI 2075-4418
+PD SEP 11
+PY 2025
+VL 15
+IS 18
+AR 2308
+DI 10.3390/diagnostics15182308
+UT WOS:001581264700001
+PM 41008680
+ER
+
+PT J
+AU Zhang, JZ
+   Zhang, XZ
+   Liu, Y
+   Zhou, YZ
+   Wang, ST
+   Zhou, HY
+   Zhu, HG
+   Lin, FC
+   Xing, ZL
+AF Zhang, Jingzhi
+   Zhang, Xingzhao
+   Liu, Yao
+   Zhou, Yuanzi
+   Wang, Site
+   Zhou, Hanyu
+   Zhu, Hongguang
+   Lin, Facai
+   Xing, Zhenlong
+TI Traditional Chinese Medicine five-tone intelligent diagnosis and
+   treatment system
+SO JOURNAL OF TRADITIONAL CHINESE MEDICINE
+RI Zhu, hongguang/KYR-6824-2024; zhenlong, xing/U-6291-2019
+SN 0255-2922
+EI 1577-7014
+PY 2025
+VL 45
+IS 3
+BP 702
+EP 710
+DI 10.19852/j.cnki.jtcm.2025.03.021
+UT WOS:001512446200001
+PM 40524310
+ER
+
+PT J
+AU Setzer, FC
+   Li, J
+   Khan, AA
+AF Setzer, F. C.
+   Li, J.
+   Khan, A. A.
+TI The Use of Artificial Intelligence in Endodontics
+SO JOURNAL OF DENTAL RESEARCH
+SN 0022-0345
+EI 1544-0591
+PD AUG
+PY 2024
+VL 103
+IS 9
+BP 853
+EP 862
+DI 10.1177/00220345241255593
+EA MAY 2024
+UT WOS:001236458800001
+PM 38822561
+ER
+
+PT J
+AU O' Sullivan, E
+   van de Lande, LS
+   Papaioannou, A
+   Breakey, RWF
+   Jeelani, NO
+   Ponniah, A
+   Duncan, C
+   Schievano, S
+   Khonsari, RH
+   Zafeiriou, S
+   Dunaway, DJ
+AF O' Sullivan, Eimear
+   van de Lande, Lara S.
+   Papaioannou, Athanasios
+   Breakey, Richard W. F.
+   Jeelani, N. Owase
+   Ponniah, Allan
+   Duncan, Christian
+   Schievano, Silvia
+   Khonsari, Roman H.
+   Zafeiriou, Stefanos
+   Dunaway, David J.
+TI Convolutional mesh autoencoders for the 3-dimensional identification of
+   FGFR-related craniosynostosis
+SO SCIENTIFIC REPORTS
+RI ; van de Lande, Lara/AAX-3690-2021; Schievano, Silvia/B-6803-2009
+OI Ponniah, Allan/0000-0001-7894-363X; van de Lande,
+   Lara/0000-0003-2482-199X; Schievano, Silvia/0000-0003-2037-5339;
+   Jeelani, Noor ul Owase/0000-0002-3240-681X
+SN 2045-2322
+PD FEB 9
+PY 2022
+VL 12
+IS 1
+AR 2230
+DI 10.1038/s41598-021-02411-y
+UT WOS:000757457000030
+PM 35140239
+ER
+
+PT J
+AU Yang, K
+   Yu, ZC
+   Su, X
+   Zhang, FJ
+   He, X
+   Wang, N
+   Zheng, QG
+   Yu, FD
+   Wen, TC
+   Zhou, XZ
+AF Yang, Kuo
+   Yu, Zecong
+   Su, Xin
+   Zhang, Fengjin
+   He, Xiong
+   Wang, Ning
+   Zheng, Qiguang
+   Yu, Feidie
+   Wen, Tiancai
+   Zhou, Xuezhong
+TI PrescDRL: deep reinforcement learning for herbal prescription planning
+   in treatment of chronic diseases
+SO CHINESE MEDICINE
+RI ; Zhou, Xuezhong/AAZ-5025-2021; Su, Xin/NIU-5469-2025
+OI Zheng, Qiguang/0000-0002-8145-2273; 
+SN 1749-8546
+PD OCT 16
+PY 2024
+VL 19
+IS 1
+AR 144
+DI 10.1186/s13020-024-01005-w
+UT WOS:001333828000001
+PM 39415223
+ER
+
+PT J
+AU He, YZ
+AF He, Yizhou
+TI 被撤回的出版物: An Intelligent Diagnosis System for English Writing Based on
+   Data Feature Extraction and Fusion (Retracted Article)
+SO COMPLEXITY
+RI He, Yizhou/LSL-1237-2024
+SN 1076-2787
+EI 1099-0526
+PD AUG 18
+PY 2021
+VL 2021
+AR 4960893
+DI 10.1155/2021/4960893
+UT WOS:000691117200003
+ER
+
+PT J
+AU Zhang, ZH
+   Wang, Y
+   Zhang, HZ
+   Samusak, A
+   Rao, HM
+   Xiao, C
+   Abula, M
+   Cao, QX
+   Dai, Q
+AF Zhang, Zuhui
+   Wang, Ying
+   Zhang, Hongzhen
+   Samusak, Arzigul
+   Rao, Huimin
+   Xiao, Chun
+   Abula, Muhetaer
+   Cao, Qixin
+   Dai, Qi
+TI Artificial intelligence-assisted diagnosis of ocular surface diseases
+SO FRONTIERS IN CELL AND DEVELOPMENTAL BIOLOGY
+RI Zhang, Zuhui/GZM-5239-2022; Dai, Qi/GSD-5879-2022
+OI Dai, Qi/0000-0002-9950-6161
+SN 2296-634X
+PD FEB 17
+PY 2023
+VL 11
+AR 1133680
+DI 10.3389/fcell.2023.1133680
+UT WOS:000942945500001
+PM 36875760
+ER
+
+PT J
+AU Zhu, B
+   Chen, YQ
+   Hu, HH
+AF Zhu, Bin
+   Chen, Youqin
+   Hu, Huihui
+TI Intelligent Diagnosis and Treatment Model Based on Clinical Data for
+   Home Rehabilitation Management of Chronic Obstructive Pulmonary Disease
+SO JOVE-JOURNAL OF VISUALIZED EXPERIMENTS
+SN 1940-087X
+PD OCT
+PY 2025
+IS 224
+AR e69024
+DI 10.3791/69024
+UT WOS:001616653700016
+PM 41212765
+ER
+
+PT J
+AU Liu, JL
+   Zhang, JF
+   Shao, Y
+   Xiao, XL
+   Huang, SJ
+   Kong, DX
+AF Liu, Jialong
+   Zhang, Jianfeng
+   Shao, Yuan
+   Xiao, Xiaolong
+   Huang, Shoujun
+   Kong, Dexing
+TI Algorithms, Techniques, and Applications of Intelligent Diagnosis Using
+   Dynamic Ultrasound: A Review
+SO IEEE ACCESS
+OI Huang, Shou-Jun/0000-0002-4385-6023; liu, jialong/0009-0005-8955-832X;
+   Zhang, Jianfeng/0000-0001-8883-3450; Kong, Dexing/0000-0001-9339-8086
+SN 2169-3536
+PY 2025
+VL 13
+BP 102899
+EP 102930
+DI 10.1109/ACCESS.2025.3578817
+UT WOS:001511065700018
+ER
+
+PT J
+AU Ji, YK
+   Hua, RR
+   Liu, S
+   Xie, CJ
+   Zhang, SC
+   Yang, WH
+AF Ji, Yu-Ke
+   Hua, Rong -Rong
+   Liu, Sha
+   Xie, Cui-Juan
+   Zhang, Shao-Chong
+   Yang, Wei -Hua
+TI Intelligent diagnosis of retinal vein occlusion based on color fundus
+   photographs
+SO INTERNATIONAL JOURNAL OF OPHTHALMOLOGY
+RI Yang, Weihua/I-1514-2015
+OI Yang, Weihua/0000-0002-7629-0193
+SN 2222-3959
+EI 2227-4898
+PD JAN 18
+PY 2024
+VL 17
+IS 1
+BP 1
+EP 6
+DI 10.18240/ijo.2024.01.01
+UT WOS:001137472600007
+PM 38239946
+ER
+
+PT J
+AU Sung, JJY
+   Poon, NCH
+AF Sung, Joseph J. Y.
+   Poon, Nicholas C. H.
+TI Artificial intelligence in gastroenterology: where are we heading?
+SO FRONTIERS OF MEDICINE
+RI SUNG, Joseph J Y/R-3203-2018
+OI SUNG, Joseph J Y/0000-0003-3125-5199
+SN 2095-0217
+EI 2095-0225
+PD AUG
+PY 2020
+VL 14
+IS 4
+BP 511
+EP 517
+DI 10.1007/s11684-020-0742-4
+EA MAY 2020
+UT WOS:000535671400001
+PM 32458189
+ER
+
+PT J
+AU Qiao, TT
+   Liu, SM
+   Cui, ZJ
+   Yu, XQ
+   Cai, HD
+   Zhang, HJ
+   Sun, M
+   Lv, ZW
+   Li, D
+AF Qiao, Tingting
+   Liu, Simin
+   Cui, Zhijun
+   Yu, Xiaqing
+   Cai, Haidong
+   Zhang, Huijuan
+   Sun, Ming
+   Lv, Zhongwei
+   Li, Dan
+TI Deep learning for intelligent diagnosis in thyroid scintigraphy
+SO JOURNAL OF INTERNATIONAL MEDICAL RESEARCH
+SN 0300-0605
+EI 1473-2300
+PD JAN
+PY 2021
+VL 49
+IS 1
+AR 0300060520982842
+DI 10.1177/0300060520982842
+UT WOS:000609321100001
+PM 33445994
+ER
+
+PT J
+AU Kadhim, MA
+AF Kadhim, Mohammed Abbas
+TI FNDSB: A fuzzy-neuro decision support system for back pain diagnosis
+SO COGNITIVE SYSTEMS RESEARCH
+RI Kadhim, Mohammed Abbas/S-6872-2017
+OI Kadhim, Mohammed Abbas/0000-0002-6088-9046
+SN 1389-0417
+PD DEC
+PY 2018
+VL 52
+BP 691
+EP 700
+DI 10.1016/j.cogsys.2018.08.021
+UT WOS:000450854400070
+ER
+
+PT J
+AU Wang, YD
+   Yang, WH
+   Li, Y
+AF Wang, Yandan
+   Yang, Weihua
+   Li, Yan
+TI Research advances on artificial intelligence assisted diagnosis and risk
+   assessment in cardiovascular disease using retinal imaging
+SO FRONTIERS IN CARDIOVASCULAR MEDICINE
+RI Yang, Weihua/I-1514-2015
+OI Yang, Weihua/0000-0002-7629-0193
+SN 2297-055X
+PD NOV 14
+PY 2025
+VL 12
+AR 1615857
+DI 10.3389/fcvm.2025.1615857
+UT WOS:001626201800001
+PM 41322502
+ER
+
+PT J
+AU Chu, XL
+   Wu, SM
+   Sun, BZ
+   Huang, QC
+AF Chu, Xiaoli
+   Wu, Simin
+   Sun, Bingzhen
+   Huang, Qingchun
+TI Data-driven quantification and intelligent decision-making in
+   traditional Chinese medicine: a review
+SO INTERNATIONAL JOURNAL OF MACHINE LEARNING AND CYBERNETICS
+RI Chu, Xiaoli/JWA-5378-2024
+SN 1868-8071
+EI 1868-808X
+PD AUG
+PY 2024
+VL 15
+IS 8
+BP 3455
+EP 3470
+DI 10.1007/s13042-024-02103-9
+EA FEB 2024
+UT WOS:001168221000001
+ER
+
+PT J
+AU Lu, C
+   Huang, HJ
+AF Lu, Chang
+   Huang, He-Jing
+TI Performance and development trends of ultrasound diagnostic systems in
+   military settings: a review
+SO ULTRASOUND JOURNAL
+EI 2524-8987
+PD NOV 4
+PY 2025
+VL 17
+IS 1
+AR 54
+DI 10.1186/s13089-025-00458-w
+UT WOS:001606349100001
+PM 41184648
+ER
+
+PT J
+AU Su, X
+   Mao, QH
+   Wu, ZZ
+   Lin, X
+   You, S
+   Liao, Y
+   Xu, C
+AF Su, Xiu
+   Mao, Qinghua
+   Wu, Zhongze
+   Lin, Xi
+   You, Shan
+   Liao, Yue
+   Xu, Chang
+TI Large language models driven neural architecture search for universal
+   and lightweight disease diagnosis on histopathology slide images
+SO NPJ DIGITAL MEDICINE
+RI Su, Xiu/LIG-5769-2024
+OI Xi, Lin/0000-0001-5303-1191
+SN 2398-6352
+PD NOV 18
+PY 2025
+VL 8
+IS 1
+AR 682
+DI 10.1038/s41746-025-02042-x
+UT WOS:001618552600010
+PM 41254215
+ER
+
+PT J
+AU Chen, C
+   Cui, ZH
+AF Chen, Catherine
+   Cui, Zhihan
+TI Impact of AI-Assisted Diagnosis on American Patients' Trust in and
+   Intention to Seek Help From Health Care Professionals: Randomized,
+   Web-Based Survey Experiment
+SO JOURNAL OF MEDICAL INTERNET RESEARCH
+RI Chen, Catherine/KEH-2957-2024
+OI Chen, Catherine/0000-0002-3367-0655; Cui, Zhihan/0000-0003-0883-2322
+SN 1438-8871
+PD JUN 18
+PY 2025
+VL 27
+AR e66083
+DI 10.2196/66083
+UT WOS:001513594800005
+PM 40532180
+ER
+
+EF
