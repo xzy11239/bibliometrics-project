@@ -33,25 +33,16 @@ M3
 - 完善项目代码、文档体系，提升项目可复现性，发布项目正式Release版本
 - 提交项目终稿（计量分析报告+mini review），确保所有代码一键运行、研究结果全程可追溯
  
-version: "v0.1"
-
-date: "2026-03-25"
-
-database: "Web of Science Core Collection"
-
-time_window: "2015-01-01 to 2025-12-31"
-
-document_types: ["Article", "Review"]
-
-languages: ["English"]
-wos_query: |
-
-TS=("artificial intelligence assisted diagnosis" OR "AI-assisted diagnosis" OR "intelligent diagnosis" OR "machine learning diagnosis" OR "deep learning diagnosis")
-
-AND TS=("medicine" OR "clinical" OR "disease" OR "diagnostic model" OR "decision support")
-AND PY=2015-2025
-AND DT=("Article" OR "Review")
-AND LA=English
+检索式
+TS=("artificial intelligence" OR "machine learning" OR "deep learning" OR "neural network" OR "radiomics" OR "AI-assisted diagnosis") 
+AND 
+TS=("clinical diagnosis" OR "medical diagnosis" OR "computer-aided diagnosis" OR "diagnostic imaging" OR "disease detection") 
+AND 
+PY=2015-2026 
+AND 
+(DT=Article OR DT=Review)
+AND 
+SU=(Medicine OR Radiology OR Pathology OR Oncology OR "General & Internal Medicine")
  
 数据来源说明
  
@@ -60,5 +51,5 @@ AND LA=English
  3. 导出时间：2026-3-26 1:28
  4. 导出参数：时间窗2015-2025，语言English，文献类型Article/Review，字段Title+Abstract+Keyword
  5. 原始文件：data/raw/savedrecs (40).txt
- 6. 数据量：572篇
+ 6. 数据量：3490篇
  7. 核心字段：作者、机构、标题、年份、期刊、摘要、关键词、DOI、参考文献列表、被引次数
