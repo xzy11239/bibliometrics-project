@@ -1,12 +1,23 @@
-version: "v0.1"
-date: "2026-03-25"
-database: "Web of Science Core Collection"
-time_window: "2015-01-01 to 2025-12-31"
-document_types: ["Article", "Review"]
-languages: ["English"]
-wos_query: |
-  TS=("artificial intelligence assisted diagnosis" OR "AI-assisted diagnosis" OR "intelligent diagnosis" OR "machine learning diagnosis" OR "deep learning diagnosis")
-  AND TS=("medicine" OR "clinical" OR "disease" OR "diagnostic model" OR "decision support")
-  AND PY=2015-2025
-  AND DT=("Article" OR "Review")
-  AND LA=English
+version: "2.0"
+last_updated: "2026-06-01"
+
+database:
+  name: "Web of Science Core Collection"
+  time_window: "2015-2026"
+
+query:
+  original: |
+    TS=("artificial intelligence" OR "machine learning" OR "deep learning" OR "neural network" OR "radiomics" OR "AI-assisted diagnosis") 
+    AND TS=("clinical diagnosis" OR "medical diagnosis" OR "computer-aided diagnosis" OR "diagnostic imaging" OR "disease detection") 
+    AND PY=2015-2026 
+    AND (DT=Article OR DT=Review) 
+    AND SU=(Medicine OR Radiology OR Pathology OR Oncology OR "General & Internal Medicine")
+
+components:
+  concept_A: "artificial intelligence, machine learning, deep learning, neural network, radiomics, AI-assisted diagnosis"
+  concept_B: "clinical diagnosis, medical diagnosis, computer-aided diagnosis, diagnostic imaging, disease detection"
+
+filters:
+  year_range: [2015, 2026]
+  document_types: ["Article", "Review"]
+  research_areas: ["Medicine", "Radiology", "Pathology", "Oncology", "General & Internal Medicine"]
