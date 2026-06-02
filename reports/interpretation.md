@@ -1,40 +1,46 @@
 # M2 图表解释
 
-## 图1：关键词共现网络
+## 图1及图2：关键词共现网络与时间演化图
 
-图1展示了本领域关键词的共现关系网络。节点代表关键词，节点大小代表出现频次，连线代表两个关键词在同一篇文献中共同出现。
+本图由 VOSviewer 生成，展示了关键词共现网络及时间演化信息。
 
-**核心节点。** 图中最大的节点是 `deep learning`（深度学习），出现 1165 次，总链接强度 4284，远高于其他关键词，说明深度学习是本领域绝对核心的技术手段。其次是 `computer-aided diagnosis`（计算机辅助诊断，827 次）和 `artificial intelligence`（人工智能，887 次），三者构成网络的三角核心。
+**图谱基础信息。** 节点大小代表关键词出现频次，圆点越大表示文献频次越高。节点之间的连线代表两个关键词在同一篇论文中共同出现，连线越多表示关联越紧密。节点颜色代表关键词的平均发表年份：蓝紫色（2021.5 以前）偏早期，绿色（2022 年左右）为中期，黄亮色（2022.5-2023）为近年前沿热点。
 
-**技术热点聚类。** 围绕核心节点，可以识别出多个技术方向：一是以 `classification`（分类）、`segmentation`（分割）、`radiomics`（影像组学）为代表的任务型聚类；二是以 `convolutional neural network`（卷积神经网络）、`transfer learning`（迁移学习）为代表的算法型聚类；三是以 `breast cancer`（乳腺癌）、`lung cancer`（肺癌）为代表的疾病应用型聚类。
+### 一、核心圈层
 
-**结构解读。** 网络呈现“核心-边缘”结构，核心区域由深度学习、AI、CAD 等概念紧密连接，边缘区域分布着特定癌种和新兴技术。这说明领域已经形成了以 AI 技术为中心、向多种肿瘤检测任务辐射的研究格局。
+**第一梯队（研究基石，频次最高）。** `deep learning`（深度学习）是全图最大的节点，颜色偏亮黄色，是领域近些年最核心的技术，也是整个图谱的技术侧枢纽。`artificial intelligence`（人工智能）是 AI 宏观顶层概念，与深度学习、计算机辅助诊断形成全维度交叉。`computer-aided diagnosis`（CAD，计算机辅助诊断）是领域应用的落脚点，也是 AI 和深度学习落地医学影像的核心方向。`classification`（分类）和 `segmentation`（分割）是深度学习在医学影像领域的两大基础任务，承接算法研究与临床疾病诊断。
 
-**局限。** 本图基于共现关系，不能直接推断因果关系。部分低频关键词可能被阈值过滤。
+**第二梯队（算法分支）。** `convolutional neural networks`（CNN）、`U-Net`、`neural networks`、`attention mechanism` 等关键词集中在图谱左侧，是深度学习落地影像的主流网络模型。这些节点颜色偏蓝绿，属于领域早期起步阶段的技术底座。
+
+### 二、三大研究聚类
+
+**聚类1（左侧黄色：算法技术集群，2022.5 以后新兴）。** 包含关键词：Deep learning、CNN、U-Net、feature extraction、image segmentation、image processing、medical diagnostic imaging。该聚类聚焦医学影像 AI 算法基础研究，包括影像预处理、分割、特征提取、深度学习模型优化。节点颜色偏黄，代表近 3 年技术迭代热点。
+
+**聚类2（中间蓝绿色：CAD 临床应用核心集群，2021.5-2022 中）。** 包含关键词：computer-aided diagnosis、prediction、performance、accuracy、validation、radiomics、features。该聚类聚焦计算机辅助诊断的效能研究，包括模型准确率、验证方法、预测性能等。其中 `radiomics`（影像组学）是连接影像特征与临床诊断的关键交叉点。
+
+**聚类3（右侧+上部：临床病种+影像设备集群，跨年份）。** 病种方向包括 breast cancer、prostate cancer、thyroid nodule、pulmonary nodules、Alzheimer、mild cognitive impairment、colonoscopy、biopsy 等。影像设备包括 MRI、CT、computed tomography、ultrasound、mammography 等。该聚类覆盖各类疾病的 AI 影像辅助筛查，是算法落地的临床场景。乳腺、肺部、甲状腺肿瘤是最热门的落地病种。
+
+### 三、时间演化规律
+
+- **2021.5 以前（蓝紫色节点）**：CT、MRI、超声、CAD、pathology、各类癌症基础临床词。早期侧重点是传统影像结合传统计算机辅助诊断。
+- **2022 年左右（绿色节点）**：CNN、分割、分类、radiomics 开始兴起，深度学习大规模落地医学影像。
+- **2022.5-2023（亮黄色节点）**：Deep learning、AI、diagnostic imaging、feature extraction 成为前沿，深度学习成为领域绝对主流，是近年发文爆发点。
+
+### 四、领域研究结论总结
+
+1. **技术主线**：从传统 CAD → 机器学习 → 深度学习（CNN/U-Net），AI 是整体领域发展的核心驱动力。
+2. **临床落地主线**：以 CT、MRI、超声、钼靶等影像为载体，乳腺、肺、甲状腺、前列腺肿瘤是 AI 诊断最热门的病种，同时已拓展到阿尔茨海默等脑疾病。
+3. **交叉热点**：影像组学（Radiomics）是连接“影像特征-深度学习算法-临床病理诊断”的关键交叉学科。
+4. **未来趋势**：亮黄色关键词（深度学习、AI、特征提取）持续走高，代表该方向仍是后续科研热点。
+
 
 ---
 
-## 图2：关键词密度图
-
-密度图是关键词共现网络的热力图版本，颜色越亮代表该区域的研究热度越集中。
-
-**高密度区域。** 图中亮度最高的区域集中在 `deep learning`、`artificial intelligence`、`computer-aided diagnosis` 附近，与图1的核心节点完全对应，说明 AI 辅助诊断是领域的研究热点中心。
-
-**次高密度区域。** 围绕核心区域，亮度较高的区域分布在肿瘤影像方向（`breast cancer`、`lung cancer`、`ultrasound`、`mri`）、技术方法方向（`classification`、`segmentation`）和评价指标方向（`accuracy`、`validation`）。
-
-**低密度边缘。** 边缘区域颜色偏蓝，包括一些特定癌种（如 `prostate cancer`、`covid-19`）和新兴技术（如 `explainable AI`、`federated learning`），可能是未来的增长点。
-
-**结构解读。** 密度图揭示了领域“核心-外围”的热度分布，技术驱动特征明显，临床应用仍在分散探索阶段。
-
-**局限。** 低频但重要的概念可能被高密度区域掩盖。
-
----
-
-## 图3：作者合作网络
+## 图2：作者合作网络
 
 图3展示了本领域作者之间的合作关系。节点代表作者，节点大小代表发文量，连线代表合作。
 
-**合作格局。** 最大的连通分量包含 116 位作者，说明领域内已经形成了一定的合作基础。但整体连线稀疏，多数作者只与少数几人合作，尚未形成密集的全国性或全球性合作网络。
+**合作格局。** 领域内已经形成了一定的合作基础。但整体连线稀疏，多数作者只与少数几人合作，尚未形成密集的全国性或全球性合作网络。
 
 **核心作者群。** 图中较大的节点包括 `wang`、`zhang`、`li`、`chen` 等，主要集中在东亚（尤其是中国）的研究机构。这些作者之间的连线较多，形成了几个相对紧密的合作子群。
 
@@ -42,7 +48,7 @@
 
 **结构解读。** 作者合作网络揭示了领域的社会结构：以东亚团队为主力，形成多个独立的研究群体；跨团队、跨国家的合作仍不充分。这与医学影像 AI 领域“数据孤岛”和“本地化验证”的特点一致。
 
-**局限。** 本图仅包含发文量 ≥5 的作者，可能遗漏部分高产但近年刚进入领域的青年学者。作者姓名歧义可能影响网络准确性。
+**局限。** 本图可能遗漏部分高产但近年刚进入领域的青年学者。作者姓名歧义可能影响网络准确性。
 
 ---
 
@@ -50,9 +56,9 @@
 
 表1列出了出现次数和总链接强度最高的 50 个关键词，按总链接强度降序排列。
 
-**核心热点。** 排名前 5 的关键词依次为：`deep learning`（1165 次）、`computer-aided diagnosis`（827 次）、`artificial intelligence`（887 次）、`classification`（657 次）、`machine learning`（594 次）。这 5 个关键词构成了本领域最核心的研究主题——基于 AI 的医学影像分类与辅助诊断。
+**核心热点。** 排名前 5 的关键词依次为：`deep learning`（1165 次，4284 链接强度）、`computer-aided diagnosis`（827 次，3759 链接强度）、`artificial intelligence`（887 次，3426 链接强度）、`classification`（657 次，3053 链接强度）、`machine learning`（594 次，2434 链接强度）。这 5 个关键词构成了本领域最核心的研究主题——基于 AI 的医学影像分类与辅助诊断。
 
-**技术路线。** 表1中涉及多种技术路径：深度学习相关（`deep learning`、`convolutional neural network`、`transfer learning`）、传统机器学习（`machine learning`、`feature extraction`）、影像组学（`radiomics`、`texture analysis`）。深度学习方法已占据主导。
+**技术路线。** 表1中涉及多种技术路径：深度学习相关（`deep learning`、`convolutional neural network`、`transfer learning`）、传统机器学习（`machine learning`、`feature extraction`）、影像组学（`radiomics`、`texture analysis`）。深度学习方法已占据主导地位。
 
 **疾病覆盖。** 表中出现的癌种包括 `breast cancer`（第 14 位）、`lung cancer`（第 44 位）、`prostate cancer`、`covid-19`（第 49 位）。乳腺癌和肺癌出现频率最高，是本领域最主要的研究对象。
 
