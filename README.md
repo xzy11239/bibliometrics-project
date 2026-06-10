@@ -354,6 +354,7 @@ SU=(Medicine OR Radiology OR Pathology OR Oncology OR "General & Internal Medici
 ### 图1：作者合作网络图（RQ2）
 
 
+<img width="1920" height="1131" alt="文献计量1" src="https://github.com/user-attachments/assets/2c3f6da3-196e-4d54-9883-1d6f62653099" />
 
 
 
