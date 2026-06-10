@@ -1,8 +1,9 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 """
-WoS文献数据清洗脚本（简化版）
-功能：合并、去重、统计缺失率
+WoS文献数据清洗脚本
+功能：合并、去重、过滤文献类型、统计缺失率
+     导出 CSV/Excel + RIS 格式（VOSviewer 兼容）
 """
 
 import pandas as pd
@@ -16,6 +17,7 @@ from datetime import datetime
 DATA_DIR = "."  # txt文件所在目录
 OUTPUT_DIR = "cleaned_data"  # 输出目录
 REPORT_DIR = "reports"  # 报告目录
+KEEP_DOC_TYPES = []  # 保留的文献类型（设为 [] 则不过滤）
 
 # ==================== 读取WoS txt文件 ====================
 def parse_wos_txt(filepath):
@@ -133,7 +135,7 @@ def records_to_dataframe(records):
     
     return df
 
-# ==================== 数据清洗函数（不过滤文献类型）====================
+# ==================== 数据清洗函数 ====================
 def clean_data(df):
     original_count = len(df)
     
@@ -148,13 +150,19 @@ def clean_data(df):
     # 综合去重判断
     df['is_duplicate'] = df['is_duplicate_doi'] | (df['DOI_clean'].isna() & df['is_duplicate_title'])
     
-    # 2. 过滤异常年份（不过滤文献类型了）
+    # 2. 过滤文献类型（如果配置了）
+    if KEEP_DOC_TYPES:
+        mask_doc_type = df['Doc_Type'].isin(KEEP_DOC_TYPES) | df['Doc_Type'].isna()
+    else:
+        mask_doc_type = True
+    
+    # 3. 过滤异常年份
     current_year = datetime.now().year
     df['Year_num'] = pd.to_numeric(df['Year'], errors='coerce')
     mask_year_valid = df['Year_num'].between(1900, current_year + 5)
     
-    # 应用过滤（只去重和过滤年份）
-    df_clean = df[~df['is_duplicate'] & mask_year_valid].copy()
+    # 应用所有过滤
+    df_clean = df[~df['is_duplicate'] & mask_doc_type & mask_year_valid].copy()
     
     cleaned_count = len(df_clean)
     
@@ -163,6 +171,10 @@ def clean_data(df):
     print(f"  DOI重复: {df['is_duplicate_doi'].sum()}")
     print(f"  Title重复: {df[df['DOI_clean'].isna()]['is_duplicate_title'].sum()}")
     print(f"  总重复: {df['is_duplicate'].sum()}")
+    if KEEP_DOC_TYPES:
+        print(f"  被过滤的文献类型: {(~mask_doc_type).sum()}")
+    else:
+        print(f"  文献类型过滤: 未过滤")
     print(f"  被过滤的异常年份: {(~mask_year_valid & ~df['Year'].isna()).sum()}")
     print(f"  清洗后保留: {cleaned_count}")
     
@@ -179,7 +191,6 @@ def generate_quality_report(df_original, df_clean, output_path):
     report_lines.append("|------|------|")
     report_lines.append(f"| 原始记录数 | {len(df_original)} |")
     report_lines.append(f"| 去重后记录数 | {len(df_original) - df_original['is_duplicate'].sum()} |")
-    report_lines.append(f"| 过滤异常年份后 | {len(df_clean)} |")
     report_lines.append(f"| **最终保留数** | **{len(df_clean)}** |\n")
     
     report_lines.append("## 2. 字段缺失率统计\n")
@@ -231,7 +242,7 @@ def generate_quality_report(df_original, df_clean, output_path):
     
     print(f"\n质量报告已保存: {output_path}")
 
-# ==================== 保存清洗后的数据 ====================
+# ==================== 保存清洗后的数据（CSV/Excel）====================
 def save_cleaned_data(df_clean):
     os.makedirs(OUTPUT_DIR, exist_ok=True)
     
@@ -248,23 +259,82 @@ def save_cleaned_data(df_clean):
     
     return csv_path
 
+# ==================== 导出 RIS 格式（VOSviewer 兼容）====================
+def export_to_ris(df, output_path):
+    """将清洗后的 DataFrame 导出为 RIS 格式"""
+    os.makedirs(os.path.dirname(output_path), exist_ok=True)
+    
+    with open(output_path, 'w', encoding='utf-8') as f:
+        for idx, row in df.iterrows():
+            f.write(f"TY  - JOUR\n")
+            if pd.notna(row.get('Title')):
+                f.write(f"TI  - {row['Title']}\n")
+            if pd.notna(row.get('Authors')):
+                f.write(f"AU  - {row['Authors']}\n")
+            if pd.notna(row.get('Year')):
+                try:
+                    year_val = int(row['Year'])
+                    f.write(f"PY  - {year_val}\n")
+                except:
+                    pass
+            if pd.notna(row.get('Journal')):
+                f.write(f"JO  - {row['Journal']}\n")
+            if pd.notna(row.get('Abstract')):
+                ab = str(row['Abstract']).replace('\n', ' ').replace('\r', ' ')
+                f.write(f"AB  - {ab}\n")
+            if pd.notna(row.get('Author_Keywords')):
+                f.write(f"KW  - {row['Author_Keywords']}\n")
+            if pd.notna(row.get('DOI')):
+                f.write(f"DO  - {row['DOI']}\n")
+            f.write(f"ER  - \n")
+    
+    print(f"✓ 已导出 RIS 格式: {output_path} (共 {len(df)} 条)")
+
+# ==================== 导出 VOSviewer 兼容 CSV ====================
+def export_for_vosviewer(df_clean, output_dir="data/processed"):
+    os.makedirs(output_dir, exist_ok=True)
+    
+    df_vos = df_clean.copy()
+    
+    # 清理字段中的换行符
+    text_fields = ['Title', 'Abstract', 'Author_Keywords', 'Keywords_Plus', 'Journal', 'Authors']
+    for field in text_fields:
+        if field in df_vos.columns:
+            df_vos[field] = df_vos[field].astype(str).str.replace('\n', ' ').str.replace('\r', ' ')
+    
+    cols_to_keep = [
+        'Authors', 'Title', 'Journal', 'Year', 
+        'Author_Keywords', 'Abstract', 'DOI', 
+        'Times_Cited', 'References'
+    ]
+    existing_cols = [c for c in cols_to_keep if c in df_vos.columns]
+    df_vos = df_vos[existing_cols]
+    
+    output_path = os.path.join(output_dir, "wos_cleaned_vosviewer.csv")
+    df_vos.to_csv(output_path, index=False, encoding='utf-8-sig')
+    
+    print(f"✓ 已导出 VOSviewer 兼容 CSV: {output_path} (共 {len(df_vos)} 条)")
+
 # ==================== 主函数 ====================
 def main():
     print("=" * 50)
-    print("WoS 文献数据清洗工具（简化版）")
+    print("WoS 文献数据清洗工具")
     print("=" * 50)
     
+    # 1. 查找所有txt文件
     txt_files = list(Path(DATA_DIR).glob("*.txt"))
     wos_files = [f for f in txt_files if not f.name.startswith("~")]
     
     if not wos_files:
         print("错误：未找到任何 .txt 文件")
+        print(f"请在当前目录 {os.getcwd()} 下放置WoS导出的txt文件")
         return
     
     print(f"\n找到 {len(wos_files)} 个txt文件:")
     for f in wos_files:
         print(f"  - {f.name}")
     
+    # 2. 解析所有文件
     print("\n正在解析WoS文件...")
     all_records = []
     for filepath in wos_files:
@@ -273,25 +343,37 @@ def main():
     
     print(f"\n总计读取: {len(all_records)} 条记录")
     
+    # 3. 转换为DataFrame
     print("\n正在转换为DataFrame...")
     df_raw = records_to_dataframe(all_records)
     print(f"字段列表: {list(df_raw.columns)}")
     
+    # 4. 清洗数据
     print("\n正在清洗数据...")
-    
-    # 添加Year_num列用于后续
-    df_raw['Year_num'] = pd.to_numeric(df_raw['Year'], errors='coerce')
-    
     df_clean = clean_data(df_raw)
     
+    if len(df_clean) == 0:
+        print("\n警告：清洗后没有数据！请检查清洗规则。")
+        return
+    
+    # 5. 生成质量报告
     print("\n正在生成质量报告...")
     os.makedirs(REPORT_DIR, exist_ok=True)
     generate_quality_report(df_raw, df_clean, os.path.join(REPORT_DIR, 'data_quality.md'))
     
+    # 6. 保存清洗后的数据（CSV/Excel）
     print("\n正在保存数据...")
     save_cleaned_data(df_clean)
     
-    # 创建field_dictionary.md
+    # 7. 导出 VOSviewer 兼容 CSV
+    print("\n正在导出 VOSviewer 兼容格式...")
+    export_for_vosviewer(df_clean)
+    
+    # 8. 导出 RIS 格式（VOSviewer 原生支持）
+    print("\n正在导出 RIS 格式...")
+    export_to_ris(df_clean, "data/processed/wos_cleaned.ris")
+    
+    # 9. 创建field_dictionary.md
     field_dict_path = os.path.join(REPORT_DIR, 'field_dictionary.md')
     with open(field_dict_path, 'w', encoding='utf-8') as f:
         f.write("# WoS 字段字典\n\n")
@@ -314,6 +396,7 @@ def main():
         f.write("| Page_Start | BP | 起始页码 |\n")
     print(f"字段字典已保存: {field_dict_path}")
     
+    # 10. 创建data/README.md
     os.makedirs('data', exist_ok=True)
     readme_path = 'data/README.md'
     with open(readme_path, 'w', encoding='utf-8') as f:
@@ -327,6 +410,8 @@ def main():
         f.write(f"\n## 文件说明\n\n")
         f.write(f"- `cleaned_data/wos_cleaned.csv` - 清洗后的数据（CSV格式）\n")
         f.write(f"- `cleaned_data/wos_cleaned.xlsx` - 清洗后的数据（Excel格式）\n")
+        f.write(f"- `data/processed/wos_cleaned_vosviewer.csv` - VOSviewer 兼容 CSV\n")
+        f.write(f"- `data/processed/wos_cleaned.ris` - RIS 格式（VOSviewer 原生支持）\n")
         f.write(f"- `reports/data_quality.md` - 数据质量详细报告\n")
         f.write(f"- `reports/field_dictionary.md` - 字段字典\n")
     print(f"数据README已保存: {readme_path}")
@@ -334,6 +419,13 @@ def main():
     print("\n" + "=" * 50)
     print("清洗完成！")
     print("=" * 50)
+    print(f"\n输出文件：")
+    print(f"  - cleaned_data/wos_cleaned.csv")
+    print(f"  - cleaned_data/wos_cleaned.xlsx")
+    print(f"  - data/processed/wos_cleaned_vosviewer.csv")
+    print(f"  - data/processed/wos_cleaned.ris ← RIS 格式，VOSviewer 可直接导入")
+    print(f"  - reports/data_quality.md")
+    print(f"  - reports/field_dictionary.md")
 
 if __name__ == "__main__":
     main()
