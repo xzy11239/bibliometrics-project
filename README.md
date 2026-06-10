@@ -373,6 +373,7 @@ SU=(Medicine OR Radiology OR Pathology OR Oncology OR "General & Internal Medici
 ### 图2：关键词聚类网络图（RQ3）
 
 
+<img width="1920" height="1131" alt="文献计量1" src="https://github.com/user-attachments/assets/a3c53756-a05f-4a27-9d5e-4aec7fce6d9e" />
 
 
 
@@ -391,6 +392,7 @@ SU=(Medicine OR Radiology OR Pathology OR Oncology OR "General & Internal Medici
 ### 图3：关键词时间演化图（RQ4）
 
 
+<img width="1920" height="1131" alt="文献计量3" src="https://github.com/user-attachments/assets/c914d8aa-c475-422f-9add-8f83d87d74b9" />
 
 
 
