@@ -410,6 +410,18 @@ SU=(Medicine OR Radiology OR Pathology OR Oncology OR "General & Internal Medici
 
 ### 表1：Top 50高频关键词统计表（RQ3）
 
+RQ	主题聚类	代表文献	期刊	年份	核心贡献	被引
+RQ1	领域发展态势	Hosny A, et al. "Artificial intelligence in radiology"	Nature Reviews Cancer	2018	系统综述AI在肿瘤影像中的应用，从定性到定量评估	2506
+RQ1	领域理论基础	Gillies RJ, et al. "Radiomics: Images Are More than Pictures, They Are Data"	Radiology	2016	提出影像组学概念，奠定医学图像定量分析基础	6917
+RQ2	合作格局（高中心性团队）	Shin HC, et al. "Deep Convolutional Neural Networks for Computer-Aided Detection"	IEEE TMI	2016	系统评估CNN架构与迁移学习在CADe中的效果	4002
+RQ2	合作格局（迁移学习方法）	Kim HE, et al. "Transfer learning for medical image classification"	BMC Medical Imaging	2022	综述迁移学习在医学图像分类中的应用策略	588
+RQ3	红色聚类（CAD诊断）	Park SH, et al. "Methodologic Guide for Evaluating Clinical Performance of AI"	Radiology	2018	提出AI诊断模型的临床评估方法论	631
+RQ3	绿色聚类（肿瘤影像-乳腺癌）	Byra M, et al. "Breast mass classification in sonography with transfer learning"	Medical Physics	2019	迁移学习在乳腺超声肿块分类中的应用	196
+RQ3	黄色聚类（深度学习分割）	Anthimopoulos M, et al. "Lung Pattern Classification for ILDs Using Deep CNN"	IEEE TMI	2016	深度CNN用于间质性肺病模式分类	909
+RQ3	蓝色聚类（AI基础方法）	Chan HP, et al. "Deep learning in medical imaging and radiation therapy"	Medical Physics	2020	综述深度学习在医学影像和放疗中的应用原理与挑战	577
+RQ4	前沿主题（临床可应用性）	De Fauw J, et al. "Clinically applicable deep learning for diagnosis in retinal disease"	Nature Medicine	2018	AI系统在视网膜疾病诊断中达到专家水平	1747
+RQ4	前沿挑战（泛化性问题）	Zech JR, et al. "Variable generalization performance of deep learning model to detect pneumonia"	PLOS Medicine	2018	揭示深度学习模型在不同医院数据上的泛化差异	1054
+<img width="694" height="319" alt="image" src="https://github.com/user-attachments/assets/b79e7bab-95c8-4950-8cd7-5387717bd057" />
 
 
 
