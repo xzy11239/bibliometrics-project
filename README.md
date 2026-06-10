@@ -361,7 +361,7 @@ SU=(Medicine OR Radiology OR Pathology OR Oncology OR "General & Internal Medici
 - **文件路径**：`outputs/figures/fig2_author_network.png`
 
 
-- **图注**：数据来源于Web of Science Core Collection（2015-2026）；分析单位为核心作者；使用VOSviewer 1.6.21生成；阈值为发文量≥10篇；节点大小代表发文量，连线代表合作，颜色代表不同聚类。
+- **图注**：数据来源于Web of Science Core Collection（2015-2026）；分析单位为核心作者；使用VOSviewer 1.6.21生成；阈值为发文量≥5篇；节点大小代表发文量，连线代表合作，颜色代表不同聚类。
 
 
 - **核心发现**：国内学者为主导，核心团队聚集，国际间合作有限
@@ -380,7 +380,7 @@ SU=(Medicine OR Radiology OR Pathology OR Oncology OR "General & Internal Medici
 - **文件路径**：`outputs/figures/fig3_keyword_clusters.png`
 
 
-- **图注**：数据来源于Web of Science Core Collection（2015-2026）；分析单位为关键词；使用VOSviewer 1.6.21生成；阈值为词频≥15次；节点大小代表词频，连线粗细代表共现强度，颜色代表聚类。
+- **图注**：数据来源于Web of Science Core Collection（2015-2026）；分析单位为关键词；使用VOSviewer 1.6.21生成；阈值为词频≥20次；节点大小代表词频，连线粗细代表共现强度，颜色代表聚类。
 
 
 - **核心发现**：分为算法、临床验证、应用场景三大聚类
