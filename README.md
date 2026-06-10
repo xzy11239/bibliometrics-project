@@ -346,25 +346,12 @@ SU=(Medicine OR Radiology OR Pathology OR Oncology OR "General & Internal Medici
 
 
 
-### 图1：年度发文趋势图（RQ1）
 
 
 
 
 
-- **文件路径**：`outputs/figures/fig1_annual_trend.png`
-
-
-- **图注**：数据来源于Web of Science Core Collection（2015-2026）；分析单位为年度发文量；使用Excel生成；2026年数据因数据库收录延迟而不完整。
-
-
-- **核心发现**：发文量连续快速增长，2022年为分野年
-
-
-
-
-
-### 图2：作者合作网络图（RQ2）
+### 图1：作者合作网络图（RQ2）
 
 
 
@@ -382,7 +369,7 @@ SU=(Medicine OR Radiology OR Pathology OR Oncology OR "General & Internal Medici
 
 
 
-### 图3：关键词聚类网络图（RQ3）
+### 图2：关键词聚类网络图（RQ3）
 
 
 
@@ -400,7 +387,7 @@ SU=(Medicine OR Radiology OR Pathology OR Oncology OR "General & Internal Medici
 
 
 
-### 图4：关键词时间演化图（RQ4）
+### 图3：关键词时间演化图（RQ4）
 
 
 
