@@ -13,9 +13,6 @@
 | 项目 | 内容 |
 
 
-|:---|:---|
-
-
 | **项目名称** | 人工智能辅助诊断的文献计量与知识图谱研究 |
 
 
@@ -55,9 +52,6 @@
 | 角色 | 姓名 | 职责分工 |
 
 
-|:---|:---|:---|
-
-
 | **组长（项目统筹）** | 许子怡 | 全面统筹项目全流程进度、协调各成员分工衔接、把控各阶段成果质量、审核项目所有产出文件、对接项目验收 |
 
 
@@ -67,10 +61,10 @@
 | **成员（计量分析与可视化）** | 李镕辛 | 开展关键词共现、合作网络、被引频次等核心文献计量分析；运用VOSviewer/CiteSpace绘制专业可视化知识图谱；完成图谱与分析结果初步解读，整理图表及核心结论，提交计量分析产出报告 |
 
 
-| **成员（报告撰写）** | 凌欣 | 整合项目所有研究成果，撰写并修改6-8页mini review；校对计量分析报告文字、数据、图表格式；梳理研究逻辑与核心结论，完善终稿内容排版与学术规范 |
+| **成员（报告撰写）** | 陈晓铭 | 整合项目所有研究成果，撰写并修改6-8页mini review；校对计量分析报告文字、数据、图表格式；梳理研究逻辑与核心结论，完善终稿内容排版与学术规范 |
 
 
-| **成员（开源项目二次开发）** | 陈晓铭 | 完成项目相关开源工具/代码二次开发与优化；编写标准化可运行代码，保障项目成果可复现、结果可追溯；发布项目正式Release版本，配合完成终稿提交 |
+| **成员（开源项目二次开发）** | 凌欣 | 完成项目相关开源工具/代码二次开发与优化；编写标准化可运行代码，保障项目成果可复现、结果可追溯；发布项目正式Release版本，配合完成终稿提交 |
 
 
 
@@ -211,9 +205,6 @@ SU=(Medicine OR Radiology OR Pathology OR Oncology OR "General & Internal Medici
 | 项目 | 内容 |
 
 
-|:---|:---|
-
-
 | **数据库** | Web of Science核心合集 |
 
 
@@ -271,9 +262,6 @@ SU=(Medicine OR Radiology OR Pathology OR Oncology OR "General & Internal Medici
 | 步骤 | 规则 | 处理数量 |
 
 
-|:---|:---|:---|
-
-
 | 去重（主键） | DOI匹配 | 22条重复删除 |
 
 
@@ -299,9 +287,6 @@ SU=(Medicine OR Radiology OR Pathology OR Oncology OR "General & Internal Medici
 
 
 | 指标 | 数值 |
-
-
-|:---|:---|
 
 
 | 原始记录 | 3,771 |
@@ -358,10 +343,10 @@ SU=(Medicine OR Radiology OR Pathology OR Oncology OR "General & Internal Medici
 
 
 
-- **文件路径**：`outputs/figures/fig2_author_network.png`
+- **文件路径**：`outputs/fig1_author_network.png`
 
 
-- **图注**：数据来源于Web of Science Core Collection（2015-2026）；分析单位为核心作者；使用VOSviewer 1.6.21生成；阈值为发文量≥5篇；节点大小代表发文量，连线代表合作，颜色代表不同聚类。
+- **图注**：数据来源于Web of Science Core Collection（2015-2026）；分析单位为核心作者；使用VOSviewer 1.6.20生成；阈值为发文量≥5篇；节点大小代表发文量，连线代表合作，颜色代表不同聚类。
 
 
 - **核心发现**：国内学者为主导，核心团队聚集，国际间合作有限
@@ -379,10 +364,10 @@ SU=(Medicine OR Radiology OR Pathology OR Oncology OR "General & Internal Medici
 
 
 
-- **文件路径**：`outputs/figures/fig3_keyword_clusters.png`
+- **文件路径**：`outputs/fig2_network_keywords.png`
 
 
-- **图注**：数据来源于Web of Science Core Collection（2015-2026）；分析单位为关键词；使用VOSviewer 1.6.21生成；阈值为词频≥20次；节点大小代表词频，连线粗细代表共现强度，颜色代表聚类。
+- **图注**：数据来源于Web of Science Core Collection（2015-2026）；分析单位为关键词；使用VOSviewer 1.6.20生成；阈值为词频≥20次；节点大小代表词频，连线粗细代表共现强度，颜色代表聚类。
 
 
 - **核心发现**：分为算法、临床验证、应用场景三大聚类
@@ -399,10 +384,10 @@ SU=(Medicine OR Radiology OR Pathology OR Oncology OR "General & Internal Medici
 
 
 
-- **文件路径**：`outputs/figures/fig4_keyword_temporal.png`
+- **文件路径**：`outputs/Fig.3_overlay_time.png`
 
 
-- **图注**：数据来源于Web of Science Core Collection（2015-2026）；分析单位为关键词；使用VOSviewer 1.6.21生成；颜色梯度代表关键词的平均出现年份（蓝紫→黄=早→晚）。
+- **图注**：数据来源于Web of Science Core Collection（2015-2026）；分析单位为关键词；使用VOSviewer 1.6.20生成；颜色梯度代表关键词的平均出现年份（蓝紫→黄=早→晚）。
 
 
 - **核心发现**：传统影像→机器学习→深度学习的演化路径
@@ -411,27 +396,28 @@ SU=(Medicine OR Radiology OR Pathology OR Oncology OR "General & Internal Medici
 
 
 
-### 表1：Top 50高频关键词统计表（RQ3）
+### 表1（RQ3）
 
-RQ	主题聚类	代表文献	期刊	年份	核心贡献	被引
-RQ1	领域发展态势	Hosny A, et al. "Artificial intelligence in radiology"	Nature Reviews Cancer	2018	系统综述AI在肿瘤影像中的应用，从定性到定量评估	2506
-RQ1	领域理论基础	Gillies RJ, et al. "Radiomics: Images Are More than Pictures, They Are Data"	Radiology	2016	提出影像组学概念，奠定医学图像定量分析基础	6917
-RQ2	合作格局（高中心性团队）	Shin HC, et al. "Deep Convolutional Neural Networks for Computer-Aided Detection"	IEEE TMI	2016	系统评估CNN架构与迁移学习在CADe中的效果	4002
-RQ2	合作格局（迁移学习方法）	Kim HE, et al. "Transfer learning for medical image classification"	BMC Medical Imaging	2022	综述迁移学习在医学图像分类中的应用策略	588
-RQ3	红色聚类（CAD诊断）	Park SH, et al. "Methodologic Guide for Evaluating Clinical Performance of AI"	Radiology	2018	提出AI诊断模型的临床评估方法论	631
-RQ3	绿色聚类（肿瘤影像-乳腺癌）	Byra M, et al. "Breast mass classification in sonography with transfer learning"	Medical Physics	2019	迁移学习在乳腺超声肿块分类中的应用	196
-RQ3	黄色聚类（深度学习分割）	Anthimopoulos M, et al. "Lung Pattern Classification for ILDs Using Deep CNN"	IEEE TMI	2016	深度CNN用于间质性肺病模式分类	909
-RQ3	蓝色聚类（AI基础方法）	Chan HP, et al. "Deep learning in medical imaging and radiation therapy"	Medical Physics	2020	综述深度学习在医学影像和放疗中的应用原理与挑战	577
-RQ4	前沿主题（临床可应用性）	De Fauw J, et al. "Clinically applicable deep learning for diagnosis in retinal disease"	Nature Medicine	2018	AI系统在视网膜疾病诊断中达到专家水平	1747
-RQ4	前沿挑战（泛化性问题）	Zech JR, et al. "Variable generalization performance of deep learning model to detect pneumonia"	PLOS Medicine	2018	揭示深度学习模型在不同医院数据上的泛化差异	1054
-<img width="2019" height="265" alt="image" src="https://github.com/user-attachments/assets/44391f2b-4e51-4635-bf83-acabd727b46f" />
-
+RQ	Theme / Cluster	Representative Literature	Journal	Year	Core Contribution	Citations
+RQ1	合作格局（高中心性团队）	Shin HC, et al. "Deep Convolutional Neural Networks for Computer-Aided Detection"	IEEE TMI	2016	系统评估 CNN 架构与迁移学习在 CADe 中的效果	4002
+RQ1	合作格局（迁移学习方法）	Kim HE, et al. "Transfer learning for medical image classification"	BMC Medical Imaging	2022	综述迁移学习在医学图像分类中的应用策略	588
+RQ2	Cluster 1 (Deep Learning & CAD)	Park SH, et al. "Methodologic Guide for Evaluating Clinical Performance of AI"	Radiology	2018	提出 AI 诊断模型的临床评估方法论	631
+RQ2	Cluster 1 (Deep Learning & CAD)	Byra M, et al. "Breast mass classification in sonography with transfer learning"	Medical Physics	2019	迁移学习在乳腺超声肿块分类中的应用	196
+RQ2	Cluster 3 (Image Segmentation)	Anthimopoulos M, et al. "Lung Pattern Classification for ILDs Using Deep CNN"	IEEE TMI	2016	深度 CNN 用于间质性肺病 CT 图像分割与分类	909
+RQ2	Cluster 2 (AI & Diagnostic Imaging)	Chan HP, et al. "Deep learning in medical imaging and radiation therapy"	Medical Physics	2020	综述深度学习在医学影像中的基础方法与挑战	577
+RQ3	领域发展态势	Hosny A, et al. "Artificial intelligence in radiology"	Nature Reviews Cancer	2018	系统综述 AI 在肿瘤影像中的应用，从定性到定量评估	2506
+RQ3	领域理论基础	Gillies RJ, et al. "Radiomics: Images Are More than Pictures, They Are Data"	Radiology	2016	提出影像组学概念，奠定医学图像定量分析基础	6917
+RQ3	Cluster 4 (Clinical Applicability)	De Fauw J, et al. "Clinically applicable deep learning for diagnosis in retinal disease"	Nature Medicine	2018	AI 系统在视网膜疾病诊断中达到专家水平	1747
+RQ3	Cluster 4 (Generalization Issue)	Zech JR, et al. "Variable generalization performance of deep learning model to detect pneumonia"	PLOS Medicine	2018	揭示深度学习模型在不同医院数据上的泛化差异	1054
 
 
-- **文件路径**：`outputs/tables/table1_top50_keywords.md`
 
 
-- **核心发现**：deep learning（1165次）为绝对核心；肿瘤影像为最成熟应用场景
+- **文件路径**：`outputs/tables/table 1.xslx`
+
+
+- **核心发现**：deep learning
+为绝对核心；肿瘤影像为最成熟应用场景
 
 
 
@@ -449,22 +435,10 @@ RQ4	前沿挑战（泛化性问题）	Zech JR, et al. "Variable generalization p
 
 
 
-| RQ | 研究问题 | 分析方法 | 对应图表 |
-
-
-|:---|:---|:---|:---|
-
-
-| **RQ1** | 发文趋势与发展阶段 | 时间序列分析 | 图1 |
-
-
-| **RQ2** | 核心研究者与合作格局 | 作者共现分析 | 图2 |
-
-
-| **RQ3** | 研究主题与聚类结构 | 关键词共现分析 | 图3、表1 |
-
-
-| **RQ4** | 前沿方向与关键挑战 | 时间演化+文献综合分析 | 图4、表1 |
+RQ 	Research Question 	Analytical Method 	Corresponding Figure
+RQ1 	What is the distribution of core researchers and the structural characteristics of author collaboration networks? 	Author co-authorship analysis	 Fig. 1,Table 1
+RQ2 	What are the research hotspots, thematic clusters, and core research directions of this field? 	Keyword co-occurrence clustering analysis 	Fig. 2, Table 1
+RQ3 	How do frontier topics evolve over time, and what are the emerging research hotspots? 	Keyword temporal overlay analysis 	Fig. 3, Table 1
 
 
 
@@ -485,37 +459,34 @@ RQ4	前沿挑战（泛化性问题）	Zech JR, et al. "Variable generalization p
 | # | 文献 | 对应RQ |
 
 
-|:---|:---|:---|
+| 1 | Hosny et al. (2018) *Nature Reviews Cancer* | RQ3 |
 
 
-| 1 | Hosny et al. (2018) *Nature Reviews Cancer* | RQ1 |
+| 2 | Gillies et al. (2016) *Radiology* | RQ3 |
 
 
-| 2 | Gillies et al. (2016) *Radiology* | RQ1 |
+| 3 | Shin et al. (2016) *IEEE TMI* | RQ1 |
 
 
-| 3 | Shin et al. (2016) *IEEE TMI* | RQ2 |
+| 4 | Kim et al. (2022) *BMC Medical Imaging* | RQ1 |
 
 
-| 4 | Kim et al. (2022) *BMC Medical Imaging* | RQ2 |
+| 5 | Park et al. (2018) *Radiology* | RQ2 |
 
 
-| 5 | Park et al. (2018) *Radiology* | RQ3 |
+| 6 | Byra et al. (2019) *Medical Physics* | RQ2 |
 
 
-| 6 | Byra et al. (2019) *Medical Physics* | RQ3 |
+| 7 | Anthimopoulos et al. (2016) *IEEE TMI* | RQ2 |
 
 
-| 7 | Anthimopoulos et al. (2016) *IEEE TMI* | RQ3 |
+| 8 | Chan et al. (2020) *Medical Physics* | RQ2 |
 
 
-| 8 | Chan et al. (2020) *Medical Physics* | RQ3 |
+| 9 | De Fauw et al. (2018) *Nature Medicine* | RQ3 |
 
 
-| 9 | De Fauw et al. (2018) *Nature Medicine* | RQ4 |
-
-
-| 10 | Zech et al. (2018) *PLOS Medicine* | RQ4 |
+| 10 | Zech et al. (2018) *PLOS Medicine* | RQ3 |
 
 
 
@@ -566,22 +537,19 @@ bibliometrics-project/
 │   ├── figures/
 
 
-│   │   ├── fig1_annual_trend.png
+│   │   ├── fig1.png
 
 
-│   │   ├── fig2_author_network.png
+│   │   ├── fig2.png
 
 
-│   │   ├── fig3_keyword_clusters.png
-
-
-│   │   └── fig4_keyword_temporal.png
+│   │   ├── fig3.png
 
 
 │   └── tables/
 
 
-│       └── table1_top50_keywords.md
+│       └── table 1.xlsx
 
 
 ├── paper/
@@ -593,13 +561,7 @@ bibliometrics-project/
 ├── presentation/               # 答辩PPT
 
 
-├── reflection/                 # 个人反思记录
-
-
 ├── docs/
-
-
-│   └── ai_usage.md             # AI使用说明
 
 
 ├── config/
