@@ -421,8 +421,7 @@ RQ3	黄色聚类（深度学习分割）	Anthimopoulos M, et al. "Lung Pattern C
 RQ3	蓝色聚类（AI基础方法）	Chan HP, et al. "Deep learning in medical imaging and radiation therapy"	Medical Physics	2020	综述深度学习在医学影像和放疗中的应用原理与挑战	577
 RQ4	前沿主题（临床可应用性）	De Fauw J, et al. "Clinically applicable deep learning for diagnosis in retinal disease"	Nature Medicine	2018	AI系统在视网膜疾病诊断中达到专家水平	1747
 RQ4	前沿挑战（泛化性问题）	Zech JR, et al. "Variable generalization performance of deep learning model to detect pneumonia"	PLOS Medicine	2018	揭示深度学习模型在不同医院数据上的泛化差异	1054
-<img width="694" height="319" alt="image" src="https://github.com/user-attachments/assets/b79e7bab-95c8-4950-8cd7-5387717bd057" />
-
+<img width="2019" height="265" alt="image" src="https://github.com/user-attachments/assets/44391f2b-4e51-4635-bf83-acabd727b46f" />
 
 
 
