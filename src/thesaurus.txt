@@ -1,0 +1,48 @@
+label	replace by
+deep learning;	deep learning
+deep-learning	deep learning
+convolutional neural networks	convolutional neural network
+cnn	convolutional neural network
+cnns	convolutional neural network
+artificial intelligence;	artificial intelligence
+ai	artificial intelligence
+artificial	artificial intelligence
+machine learning;	machine learning
+ml	machine learning
+computer-aided diagnosis (cad)	computer-aided diagnosis
+cad	computer-aided diagnosis
+computer aided diagnosis	computer-aided diagnosis
+cadx	computer-aided diagnosis
+computer-aided detection	computer-aided diagnosis
+breast cancer;	breast cancer
+breastcancer	breast cancer
+breast cancer diagnosis	breast cancer
+lung cancer;	lung cancer
+lung-cancer	lung cancer
+computed tomography;	computed tomography
+ct	computed tomography
+computer tomography	computed tomography
+mri	magnetic resonance imaging
+magnetic resonance	magnetic resonance imaging
+feature extraction;	feature extraction
+segmentation	image segmentation
+medical image segmentation	image segmentation
+ultrasonography	ultrasound
+neural networks	neural network
+neural network;	neural network
+transfer learning;	transfer learning
+pulmonary nodule	pulmonary nodules
+nodules	pulmonary nodules
+images	image
+performance;	performance
+prediction;	prediction
+accuracy;	accuracy
+risk;	risk
+management;	management
+validation;	validation
+model;	model
+network;	network
+tumor	tumors
+biomarker	biomarkers
+covid	covid-19
+tomography;	tomography
