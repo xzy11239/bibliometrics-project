@@ -28,7 +28,7 @@
 | **时间范围** | 2015-2026 |
 
 
-| **分析工具** | VOSviewer 1.6.21 |
+| **分析工具** | VOSviewer 1.6.20 |
 
 
 | **项目状态** | ✅ M1完成 | ✅ M2完成 | ✅ M3完成 |
@@ -398,18 +398,18 @@ SU=(Medicine OR Radiology OR Pathology OR Oncology OR "General & Internal Medici
 
 ### 表1（RQ3）
 
-RQ	Theme / Cluster	Representative Literature	Journal	Year	Core Contribution	Citations
-RQ1	合作格局（高中心性团队）	Shin HC, et al. "Deep Convolutional Neural Networks for Computer-Aided Detection"	IEEE TMI	2016	系统评估 CNN 架构与迁移学习在 CADe 中的效果	4002
-RQ1	合作格局（迁移学习方法）	Kim HE, et al. "Transfer learning for medical image classification"	BMC Medical Imaging	2022	综述迁移学习在医学图像分类中的应用策略	588
-RQ2	Cluster 1 (Deep Learning & CAD)	Park SH, et al. "Methodologic Guide for Evaluating Clinical Performance of AI"	Radiology	2018	提出 AI 诊断模型的临床评估方法论	631
-RQ2	Cluster 1 (Deep Learning & CAD)	Byra M, et al. "Breast mass classification in sonography with transfer learning"	Medical Physics	2019	迁移学习在乳腺超声肿块分类中的应用	196
-RQ2	Cluster 3 (Image Segmentation)	Anthimopoulos M, et al. "Lung Pattern Classification for ILDs Using Deep CNN"	IEEE TMI	2016	深度 CNN 用于间质性肺病 CT 图像分割与分类	909
-RQ2	Cluster 2 (AI & Diagnostic Imaging)	Chan HP, et al. "Deep learning in medical imaging and radiation therapy"	Medical Physics	2020	综述深度学习在医学影像中的基础方法与挑战	577
-RQ3	领域发展态势	Hosny A, et al. "Artificial intelligence in radiology"	Nature Reviews Cancer	2018	系统综述 AI 在肿瘤影像中的应用，从定性到定量评估	2506
-RQ3	领域理论基础	Gillies RJ, et al. "Radiomics: Images Are More than Pictures, They Are Data"	Radiology	2016	提出影像组学概念，奠定医学图像定量分析基础	6917
-RQ3	Cluster 4 (Clinical Applicability)	De Fauw J, et al. "Clinically applicable deep learning for diagnosis in retinal disease"	Nature Medicine	2018	AI 系统在视网膜疾病诊断中达到专家水平	1747
-RQ3	Cluster 4 (Generalization Issue)	Zech JR, et al. "Variable generalization performance of deep learning model to detect pneumonia"	PLOS Medicine	2018	揭示深度学习模型在不同医院数据上的泛化差异	1054
-
+| RQ | Theme / Cluster | Representative Literature | Journal | Year | Core Contribution | Citations |
+|----|----------------|---------------------------|---------|------|-------------------|-----------|
+| RQ1 | 合作格局（高中心性团队） | Shin HC, et al. "Deep Convolutional Neural Networks for Computer-Aided Detection" | IEEE TMI | 2016 | 系统评估 CNN 架构与迁移学习在 CADe 中的效果 | 4002 |
+| RQ1 | 合作格局（迁移学习方法） | Kim HE, et al. "Transfer learning for medical image classification" | BMC Medical Imaging | 2022 | 综述迁移学习在医学图像分类中的应用策略 | 588 |
+| RQ2 | Cluster 1 (Deep Learning & CAD) | Park SH, et al. "Methodologic Guide for Evaluating Clinical Performance of AI" | Radiology | 2018 | 提出 AI 诊断模型的临床评估方法论 | 631 |
+| RQ2 | Cluster 1 (Deep Learning & CAD) | Byra M, et al. "Breast mass classification in sonography with transfer learning" | Medical Physics | 2019 | 迁移学习在乳腺超声肿块分类中的应用 | 196 |
+| RQ2 | Cluster 3 (Image Segmentation) | Anthimopoulos M, et al. "Lung Pattern Classification for ILDs Using Deep CNN" | IEEE TMI | 2016 | 深度 CNN 用于间质性肺病 CT 图像分割与分类 | 909 |
+| RQ2 | Cluster 2 (AI & Diagnostic Imaging) | Chan HP, et al. "Deep learning in medical imaging and radiation therapy" | Medical Physics | 2020 | 综述深度学习在医学影像中的基础方法与挑战 | 577 |
+| RQ3 | 领域发展态势 | Hosny A, et al. "Artificial intelligence in radiology" | Nature Reviews Cancer | 2018 | 系统综述 AI 在肿瘤影像中的应用，从定性到定量评估 | 2506 |
+| RQ3 | 领域理论基础 | Gillies RJ, et al. "Radiomics: Images Are More than Pictures, They Are Data" | Radiology | 2016 | 提出影像组学概念，奠定医学图像定量分析基础 | 6917 |
+| RQ3 | Cluster 4 (Clinical Applicability) | De Fauw J, et al. "Clinically applicable deep learning for diagnosis in retinal disease" | Nature Medicine | 2018 | AI 系统在视网膜疾病诊断中达到专家水平 | 1747 |
+| RQ3 | Cluster 4 (Generalization Issue) | Zech JR, et al. "Variable generalization performance of deep learning model to detect pneumonia" | PLOS Medicine | 2018 | 揭示深度学习模型在不同医院数据上的泛化差异 | 1054 |
 
 
 
@@ -642,7 +642,7 @@ python src/clean_wos_data.py --input data/raw/savedrecs.txt --output data/cleane
 
 
 
-1. 打开VOSviewer 1.6.21
+1. 打开VOSviewer 1.6.20
 
 
 2. 导入 data/cleaned/ 目录下的清洗后数据
@@ -651,10 +651,10 @@ python src/clean_wos_data.py --input data/raw/savedrecs.txt --output data/cleane
 3. 设置参数：
 
 
-   · 作者分析：阈值 ≥ 10篇
+   · 作者分析：阈值 ≥ 5篇
 
 
-   · 关键词分析：阈值 ≥ 15次
+   · 关键词分析：阈值 ≥ 20次
 
 
 4. 生成网络图并导出
@@ -691,15 +691,6 @@ ChatGPT README与文档辅助 许子怡审核确认
 
 
 
-
-
-声明：所有核心研究发现（计量图谱、数据分析、结论）均为团队原创。AI仅作为辅助工具使用。
-
-
-
-
-
-详见：docs/ai_usage.md
 
 
 
