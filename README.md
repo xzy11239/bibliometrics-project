@@ -336,7 +336,7 @@ SU=(Medicine OR Radiology OR Pathology OR Oncology OR "General & Internal Medici
 
 
 
-### 图1：作者合作网络图（RQ2）
+### 图1：作者合作网络图（RQ1）
 
 
 <img width="1920" height="1131" alt="文献计量1" src="https://github.com/user-attachments/assets/2c3f6da3-196e-4d54-9883-1d6f62653099" />
@@ -355,7 +355,7 @@ SU=(Medicine OR Radiology OR Pathology OR Oncology OR "General & Internal Medici
 
 
 
-### 图2：关键词聚类网络图（RQ3）
+### 图2：关键词聚类网络图（RQ2）
 
 <img width="3004" height="1770" alt="kk" src="https://github.com/user-attachments/assets/f6f11e66-c06e-4b4b-8614-7392b83c1cdf" />
 
@@ -376,7 +376,7 @@ SU=(Medicine OR Radiology OR Pathology OR Oncology OR "General & Internal Medici
 
 
 
-### 图3：关键词时间演化图（RQ4）
+### 图3：关键词时间演化图（RQ3）
 
 <img width="3004" height="1770" alt="xx" src="https://github.com/user-attachments/assets/10729ec6-b7d3-4ebc-9647-39179399b57c" />
 
@@ -396,7 +396,7 @@ SU=(Medicine OR Radiology OR Pathology OR Oncology OR "General & Internal Medici
 
 
 
-### 表1（RQ3）
+### 表1（RQ1、2、3）
 
 | RQ | Theme / Cluster | Representative Literature | Journal | Year | Core Contribution | Citations |
 |----|----------------|---------------------------|---------|------|-------------------|-----------|
@@ -435,11 +435,11 @@ SU=(Medicine OR Radiology OR Pathology OR Oncology OR "General & Internal Medici
 
 
 
-RQ 	Research Question 	Analytical Method 	Corresponding Figure
-RQ1 	What is the distribution of core researchers and the structural characteristics of author collaboration networks? 	Author co-authorship analysis	 Fig. 1,Table 1
-RQ2 	What are the research hotspots, thematic clusters, and core research directions of this field? 	Keyword co-occurrence clustering analysis 	Fig. 2, Table 1
-RQ3 	How do frontier topics evolve over time, and what are the emerging research hotspots? 	Keyword temporal overlay analysis 	Fig. 3, Table 1
-
+| RQ | Research Question | Analytical Method | Corresponding Figure |
+|----|-------------------|-------------------|-----------------------|
+| RQ1 | What is the distribution of core researchers and the structural characteristics of author collaboration networks? | Author co-authorship analysis | Fig. 1, Table 1 |
+| RQ2 | What are the research hotspots, thematic clusters, and core research directions of this field? | Keyword co-occurrence clustering analysis | Fig. 2, Table 1 |
+| RQ3 | How do frontier topics evolve over time, and what are the emerging research hotspots? | Keyword temporal overlay analysis | Fig. 3, Table 1 |
 
 
 
