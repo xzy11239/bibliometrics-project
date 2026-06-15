@@ -65,7 +65,7 @@ AND SU=(Medicine OR Radiology OR Pathology OR Oncology OR "General & Internal Me
 | 项目 | 内容 |
 |------|------|
 | **数据库** | Web of Science核心合集 |
-| **检索式版本** | `config/query.yaml` v1.0 |
+| **检索式版本** | `config/query.yaml` v2.0 |
 | **导出时间** | 2026-06-1 |
 | **导出参数** | 时间窗2015-2026，语言English，文献类型Article/Review，字段Title+Abstract+Keyword |
 | **原始数据量** | 3,771篇 |
@@ -111,6 +111,7 @@ AND SU=(Medicine OR Radiology OR Pathology OR Oncology OR "General & Internal Me
 ## 三图一表
 
 ### 图1：年发文趋势图（RQ1）
+<img width="1960" height="960" alt="Figure_1" src="https://github.com/user-attachments/assets/282b9a52-31b2-411b-83ff-80ff0ea4fc2a" />
 
 **文件路径**：outputs/Figure_1.jpg
 
@@ -121,6 +122,7 @@ AND SU=(Medicine OR Radiology OR Pathology OR Oncology OR "General & Internal Me
 ---
 
 ### 图2：作者合作网络图（RQ2）
+<img width="3004" height="1770" alt="Figure_2" src="https://github.com/user-attachments/assets/168aee83-0aea-4035-9800-7e34691ca660" />
 
 **文件路径**：outputs/Figure_2.png
 
@@ -131,7 +133,8 @@ AND SU=(Medicine OR Radiology OR Pathology OR Oncology OR "General & Internal Me
 
 ---
 
-### 图3：关键词聚类网络图（RQ2/RQ3）
+### 图3：关键词聚类网络图（RQ3）
+<img width="3004" height="1770" alt="Figure_3" src="https://github.com/user-attachments/assets/1266b107-429f-4a22-9a7f-7da769564ab2" />
 
 **文件路径**：outputs/Figure_3.png
 
@@ -142,6 +145,7 @@ AND SU=(Medicine OR Radiology OR Pathology OR Oncology OR "General & Internal Me
 ---
 
 ### 图4：关键词时间演化图（RQ3）
+<img width="3004" height="1770" alt="Figure_4" src="https://github.com/user-attachments/assets/97ebd9d0-53a6-4916-8fad-dc9fff4d12ec" />
 
 **文件路径**：outputs/Figure_4.png
 
@@ -152,6 +156,7 @@ AND SU=(Medicine OR Radiology OR Pathology OR Oncology OR "General & Internal Me
 ---
 
 ### 图5：文献共被引网络图（RQ4）
+<img width="3004" height="1770" alt="Figure_5" src="https://github.com/user-attachments/assets/f596dbe8-d454-41dc-9f93-3c22b438d807" />
 
 **文件路径**：outputs/Figure_5.png
 
