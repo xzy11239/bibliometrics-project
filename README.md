@@ -1,4 +1,3 @@
-```markdown
 # Bibliometrics Project: AI-Assisted Diagnosis in Medical Imaging
 
 ## 项目信息
@@ -51,7 +50,6 @@
 
 ## 检索式
 
-```
 
 TS = ("artificial intelligence" OR "machine learning" OR "deep learning" OR "neural network" OR "radiomics" OR "AI-assisted diagnosis") 
 AND TS = ("clinical diagnosis" OR "medical diagnosis" OR "computer-aided diagnosis" OR "diagnostic imaging" OR "disease detection") 
@@ -59,7 +57,6 @@ AND PY=2015-2026
 AND (DT=Article OR DT=Review) 
 AND SU=(Medicine OR Radiology OR Pathology OR Oncology OR "General & Internal Medicine")
 
-```
 
 ---
 
