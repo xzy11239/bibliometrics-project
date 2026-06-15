@@ -198,29 +198,51 @@ AND SU=(Medicine OR Radiology OR Pathology OR Oncology OR "General & Internal Me
 ```
 
 bibliometrics-project/
+│
+├── README.md                          # 项目说明
+│
+├── config/
+│   └── query.yaml                     # 检索式配置文件
+│
 ├── data/
-│   ├── raw/                    # 原始WoS导出文件（3,771条）
-│   ├── cleaned/                # 清洗后数据（3,504条）
-│   └── screening_records.csv   # 筛选记录
+│   ├── raw/                           # 原始WoS导出文件
+│   │   └── savedrecs.txt              # 3,771条原始记录
+│   ├── proccessed/                    # 清洗后数据
+│   │   └── wos_cleaned.txt            # 3,504条有效记录
+│   └── readme.md                      # 筛选记录
+│
 ├── src/
-│   └── clean_wos_data.py       # 数据清洗脚本
+│   ├── requirements.txt               # Python依赖
+│   └── clean_wos_data.py              # 数据清洗脚本
+│
 ├── outputs/
 │   ├── figures/
-│   │   ├── Figure_1.png        # 年发文趋势图
-│   │   ├── Figure_2.png        # 关键词聚类网络图
-│   │   ├── Figure_3.png        # 作者合作网络图
-│   │   ├── Figure_4.png        # 文献共被引网络图
-│   │   └── Figure_5.png        # 关键词时间演化图
+│   │   ├── Figure_1.png               # 年发文趋势图
+│   │   ├── Figure_2.png               # 关键词聚类网络图
+│   │   ├── Figure_3.png               # 作者合作网络图
+│   │   ├── Figure_4.png               # 文献共被引网络图
+│   │   └── Figure_5.png               # 关键词时间演化图
 │   └── tables/
-│       └── Table_1.csv         # 高被引代表文献表
+│       └── Table_1.xlsx               # 高被引代表文献表
+│
 ├── paper/
-│   └── manuscript.docx         # 论文终稿
-├── presentation/               # 答辩PPT
+│   └── manuscript.docx                # 论文终稿
+│
+├── presentation/
+│   └── slides.pptx                    # 答辩PPT
+│
 ├── docs/
-│   └── ai_usage.md             # AI使用说明
-├── config/
-│   └── query.yaml              # 检索式配置文件
-└── README.md                   # 本文件
+│   └── cleaning_rules                 # 清洗规则
+│
+├── reflection/
+│   ├── xu_ziyi.md                     # 许子怡分工与反思
+│   ├── tang_yu.md                     # 唐雨分工与反思
+│   ├── li_rongxin.md                  # 李镕辛分工与反思
+│   ├── chen_xiaoming.md               # 陈晓铭分工与反思
+│   └── ling_xin.md                    # 凌欣分工与反思
+│
+├── params.md                          # 参数说明
+└── .gitignore
 
 ```
 
