@@ -112,7 +112,7 @@ AND SU=(Medicine OR Radiology OR Pathology OR Oncology OR "General & Internal Me
 
 ### 图1：年发文趋势图（RQ1）
 
-**文件路径**：
+**文件路径**：outputs/Figure_1.jpg
 
 **图注**：数据来源于Web of Science Core Collection（2015-2026）；使用Python绘制；时间范围为2015-2026年；节点代表年份，纵轴代表发文量。
 
@@ -122,7 +122,7 @@ AND SU=(Medicine OR Radiology OR Pathology OR Oncology OR "General & Internal Me
 
 ### 图2：作者合作网络图（RQ2）
 
-**文件路径**：
+**文件路径**：outputs/Figure_2.png
 
 **图注**：数据来源于Web of Science Core Collection（2015-2026）；分析单位为核心作者；使用VOSviewer 1.6.20生成；阈值为发文量≥6篇；节点大小代表发文量，颜色代表合作聚类，连线代表合作关系。
 
@@ -131,9 +131,19 @@ AND SU=(Medicine OR Radiology OR Pathology OR Oncology OR "General & Internal Me
 
 ---
 
-### 图3：关键词时间演化图（RQ3）
+### 图3：关键词聚类网络图（RQ2/RQ3）
 
-**文件路径**：
+**文件路径**：outputs/Figure_3.png
+
+**图注**：数据来源于Web of Science Core Collection（2015-2026）；分析单位为核心关键词；使用VOSviewer 1.6.20生成；阈值为关键词出现次数≥30次；聚类分辨率为1.0；节点大小代表关键词出现频次，颜色代表主题聚类，连线代表共现关系。
+
+**核心发现**：分为三大聚类——红色（技术与方法层：deep learning、CNN、U-Net）、蓝绿色（影像与疾病分析层：MRI、CT、radiomics、prognosis）、黄色（临床应用层：computer-aided diagnosis、breast cancer、ultrasound）。
+
+---
+
+### 图4：关键词时间演化图（RQ3）
+
+**文件路径**：outputs/Figure_4.png
 
 **图注**：数据来源于Web of Science Core Collection（2015-2026）；分析单位为核心关键词；使用VOSviewer 1.6.20生成；阈值为关键词出现次数≥30次；颜色梯度代表关键词的平均出现年份（蓝色=2021年前后，绿色=2022年前后，黄色=2023年前后）。
 
@@ -141,23 +151,13 @@ AND SU=(Medicine OR Radiology OR Pathology OR Oncology OR "General & Internal Me
 
 ---
 
-### 图4：文献共被引网络图（RQ4）
+### 图5：文献共被引网络图（RQ4）
 
-**文件路径**：
+**文件路径**：outputs/Figure_5.png
 
 **图注**：数据来源于Web of Science Core Collection（2015-2026）；分析单位为参考文献；使用VOSviewer 1.6.20生成；阈值为被引次数≥40次；节点大小代表被引频次，颜色代表共被引聚类。
 
 **核心发现**：三大知识集群——Cluster A（U-Net，图像分割基础）、Cluster B（ResNet，深度表征学习）、Cluster C（Litjens综述、Esteva临床研究，领域综述与临床里程碑）。
-
----
-
-### 图5：关键词聚类网络图（RQ2/RQ3）
-
-**文件路径**：
-
-**图注**：数据来源于Web of Science Core Collection（2015-2026）；分析单位为核心关键词；使用VOSviewer 1.6.20生成；阈值为关键词出现次数≥30次；聚类分辨率为1.0；节点大小代表关键词出现频次，颜色代表主题聚类，连线代表共现关系。
-
-**核心发现**：分为三大聚类——红色（技术与方法层：deep learning、CNN、U-Net）、蓝绿色（影像与疾病分析层：MRI、CT、radiomics、prognosis）、黄色（临床应用层：computer-aided diagnosis、breast cancer、ultrasound）。
 
 ---
 
